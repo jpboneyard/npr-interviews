@@ -505,10 +505,9 @@ header {
 	max-width: 760px;
 	padding: 20px 36px 0px 36px;
 	background-color: #fff;
-	margin-top: -75px;
+	margin-top: -45px;
 
 	@media (min-width: 800px) {
-		margin-top: -130px;
 		padding-top: 36px;
 	}//mq800
 }
@@ -1357,8 +1356,13 @@ footer {
 	background-color: #000;
 	position: relative;
 	color: #fff;
-	padding: 70px;
-	height: 350px;
+	padding: 35px;
+	height: 500px;
+
+	@media (min-width: 1100px) {
+		height: 350px;
+		padding: 70px;
+	}//mq
 }
 
 .ftr-content-mod {
@@ -1391,8 +1395,12 @@ footer {
 	float: left;
 	display: inline;
 	@include pie-clearfix;
-	border-right: 1px solid;
+	border-right: 0px solid;
 	padding: 15px 0px;
+
+	@media (min-width: 1100px) {
+		border-right: 1px solid;
+	}//mq
 }
 
 .ftr-blurb-mod {
@@ -1412,11 +1420,16 @@ footer {
 }
 
 .ftr-sponsor-mod {
-	padding: 30px 0px 30px 30px;
-	float: right;
-	display: inline;
-	@include pie-clearfix;
-	text-align: center;
+	float: none;
+	display: block;
+
+	@media (min-width: 1100px) {
+		float: right;
+		display: inline;
+		text-align: center;
+		@include pie-clearfix;
+		padding: 30px 0px 30px 30px;
+	}//mq
 }	
 
 .ftr-sponsor {

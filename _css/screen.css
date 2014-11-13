@@ -865,11 +865,10 @@ header {
   max-width: 760px;
   padding: 20px 36px 0px 36px;
   background-color: #fff;
-  margin-top: -75px;
+  margin-top: -45px;
 }
 @media (min-width: 800px) {
   .intro-mod {
-    margin-top: -130px;
     padding-top: 36px;
   }
 }
@@ -1894,8 +1893,14 @@ footer {
   background-color: #000;
   position: relative;
   color: #fff;
-  padding: 70px;
-  height: 350px;
+  padding: 35px;
+  height: 500px;
+}
+@media (min-width: 1100px) {
+  footer {
+    height: 350px;
+    padding: 70px;
+  }
 }
 
 .ftr-content-mod {
@@ -1927,13 +1932,18 @@ footer {
   float: left;
   display: inline;
   *zoom: 1;
-  border-right: 1px solid;
+  border-right: 0px solid;
   padding: 15px 0px;
 }
 .ftr-info-mod:after {
   content: "";
   display: table;
   clear: both;
+}
+@media (min-width: 1100px) {
+  .ftr-info-mod {
+    border-right: 1px solid;
+  }
 }
 
 .ftr-blurb-mod {
@@ -1953,16 +1963,22 @@ footer {
 }
 
 .ftr-sponsor-mod {
-  padding: 30px 0px 30px 30px;
-  float: right;
-  display: inline;
-  *zoom: 1;
-  text-align: center;
+  float: none;
+  display: block;
 }
-.ftr-sponsor-mod:after {
-  content: "";
-  display: table;
-  clear: both;
+@media (min-width: 1100px) {
+  .ftr-sponsor-mod {
+    float: right;
+    display: inline;
+    text-align: center;
+    *zoom: 1;
+    padding: 30px 0px 30px 30px;
+  }
+  .ftr-sponsor-mod:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 
 .ftr-sponsor {
