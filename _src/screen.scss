@@ -42,9 +42,10 @@ h1 {
 	color: #000;
 	text-transform: uppercase;
 	letter-spacing: 3px;
+	text-align: left;
 
 	@media (min-width: 500px) {
-		font-size: 82px;
+		font-size: 100px;
 	}//mq
 }
 
@@ -105,10 +106,9 @@ h4 {
 	color: #444;
 	margin-bottom: 6px;
 	-webkit-font-smoothing: antialiased;
-	text-align: center;
+	text-align: left;
 	max-width: $standard-width;
 	letter-spacing: 2px;
-	margin-top: 6px;
 
 	@media (min-width: 600px) {
 		font-size: 18px;
@@ -116,26 +116,22 @@ h4 {
 }
 
 .sponsor-line {
-	margin: 0 auto;
-	font: 400 15px/120% $serif;
-	color: #444;
+	font: 400 15px/120% $sans-title;
+	color: #222;
 	-webkit-font-smoothing: antialiased;
-	text-align: center;
-	display: inline;
 
 	@media (min-width: 800px) {
-		font-size: 21px;
+		font-size: 22px;
 	}//mq800
 }
 
 .sponsor-line-b {
-	font: 600 15px/120% $serif;
-/*	text-transform: uppercase;
-	letter-spacing: 1px;*/
-	color: #444;
+	font: 400 15px/120% $sans-title;
+	color: #222;
+	text-decoration: underline;
 
 	@media (min-width: 800px) {
-		font-size: 21px;
+		font-size: 22px;
 	}//mq800
 }
 
@@ -176,8 +172,8 @@ li {
 }//li
 
 .lead-in-txt {
-	font: 800 24px/145% $serif;
-	color: #000;
+	font: 800 23px/138% $serif;
+	color: #111;
 	margin-bottom: 8px;
 	-webkit-font-smoothing: antialiased;
 	max-width: $standard-width;
@@ -185,15 +181,15 @@ li {
 	margin-bottom: 35px;
 
 	@media (min-width: 800px) {
-		font-size: 27px;
-		line-height: 150%;
+		font-size: 28px;
+		line-height: 148%;
 	}//mq800
 }
 
 
 .interview-q {
-	font: 400 25px/126% $sans-title;
-	color: #333;
+	font: 800 25px/162% $serif;
+	color: #111;
 	-webkit-font-smoothing: antialiased;
 	max-width: $standard-width;
 	margin: 0 auto;
@@ -202,9 +198,7 @@ li {
 	letter-spacing: 0px;
 
 	@media (min-width: 800px) {
-		font-size: 30px;
-		line-height: 126%;
-		margin-bottom: 25px;
+		font-size: 21px;
 	}//mq800
 }
 
@@ -237,18 +231,18 @@ li {
 
 .block-quote-lg {
 	font: 800 25px/130% $serif;
-	color: #000;
-	margin-bottom: 8px;
+	color: #333;
 	-webkit-font-smoothing: antialiased;
-	max-width: 1200px;
+	max-width: 1100px;
 	margin: 0 auto;
-	margin-bottom: 35px;
+	margin-bottom: 45px;
 	margin-top: 10px;
 	text-indent: -0.5em;
+	text-align: center;
 
 	@media (min-width: 800px) {
 		font-size: 38px;
-		line-height: 140%;
+		line-height: 132%;
 	}//mq800
 }
 
@@ -308,16 +302,18 @@ header {
 	left: 0px;
 	z-index: 4;
 	background-color: #fff;
+	border-bottom: 1px solid;
+	border-color: #E2E3E4;
 
 	@media (min-width: 760px) {
 		padding: 22px px;
 		z-index: 2;
-		left: auto;
 	}
 }
 
 .nav-logo-mod {
 	float: left;
+	padding-left: 20px;
 
 	@media (min-width: 760px) {
 		padding-top: 0px;
@@ -502,18 +498,17 @@ header {
 
 .intro-mod {
 	margin: 0 auto;
-	max-width: 760px;
-	padding: 20px 36px 0px 36px;
+	max-width: $standard-width;
 	background-color: #fff;
-	margin-top: -45px;
+	margin-bottom: 30px;
 
 	@media (min-width: 800px) {
-		padding-top: 36px;
+		margin-bottom: 45px;
 	}//mq800
 }
 
 .intro-content {
-	text-align: center;
+	max-width: $standard-width;
 }
 
 .intro-ornament {
@@ -531,12 +526,12 @@ header {
 .sponsored-content-mod {
 	border-top: 1px solid;
 	border-bottom: 1px solid;
-	border-color: #000;
+	border-color: #999;
 	max-width: $standard-width;
 	margin: 0 auto;
 	text-align: center;
 	padding: 36px 0px 36px 0px;
-	margin-bottom: 25px;
+	margin-bottom: 35px;
 	background-color: #fafafa;
 }
 
@@ -544,6 +539,10 @@ header {
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 15px;
+}
+
+.sponsored-content-img {
+	margin-bottom: 10px;
 }
 
 .sponsored-credit {
@@ -568,7 +567,7 @@ header {
 .sponsor-end {
 	margin: 0 auto;
 	max-width: $standard-width;
-	margin-bottom: 50px;
+	margin-bottom: 45px;
 }
 
 .sponsor-end-img {
@@ -1111,7 +1110,7 @@ header {
 
 .project-page-content {
 	background-color: #fff;
-	padding: 32px 15px;
+	padding: 0px 15px;
 	margin: 0 auto;
 	display: block;
 
@@ -1125,13 +1124,14 @@ header {
 
 	p {
 		margin: 0 auto;
-		margin-bottom: 30px;
-		color: #333332;;
-		font: 400 17px/177% $serif;
+		margin-bottom: 35px;
+		color: #444;;
+		font: 400 17px/162% $serif;
 		max-width: $standard-width;
 
 		@media (min-width: 500px) {
 			font-size: 21px;
+			line-height: 162%;
 		}
 
 		&:last-child {

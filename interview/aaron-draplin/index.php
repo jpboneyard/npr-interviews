@@ -20,15 +20,12 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<div class="intro-mod">
 						<div class="intro-content">
 							<h1>Aaron James Draplin</h1>
-							<div class="sponsor-line">Interview Presented By</div> <div class="sponsor-line sponsor-line-b"><a href="http://www.frenchpaper.com/" target="_blank" />French Paper Co.</a></div>
-<!-- 							<img class="sponsor-end-img-sm" src="/_img/sponsor-logo.jpg" />
- -->							<div class="intro-meta">THE NPR BUSHWA SERIES No.1 — NOV. 2014</div>
-							<img class="intro-ornament" src="/_img/intro-ornament.jpg" />
+							<span class="sponsor-line">Interview Presented by</span> <span class="sponsor-line sponsor-line-b"><a href="http://www.frenchpaper.com/" target="_blank" />French Paper Co.</a></span>
 						</div> <!-- /intro-content -->
 					</div> <!-- /intro-mod -->
 
 					<div class="lead-in-txt-mod">
-						<blockquote class="lead-in-txt">Nec repellat enim. Volutpat mi vivamus a. Mauris vestibulum et sit aliquet nullam, gravida justo sit, nullam volutpat non, erat sit senectus. Ad felis nullam montes, ut quis, et nunc ut lorem bibendum cras nisl.</blockquote>
+						<blockquote class="lead-in-txt">Nec repellat enim. Volutpat mi vivamus a. Mauris vestibulum et sit aliquet nullam, gravida justo sit, nullam volutpat non, erat sit senectus. Ad felis nullam montes, ut quis, et nunc ut lorem bibendum cras nisl. Mauris vestibulum et sit aliquet nullam, gravida justo sit, two thang.</blockquote>
 					</div> <!-- /lead-in-txt -->
 
 
@@ -81,6 +78,14 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<div class="img-caption">
 						Draplin States and Cities Tour Posters
 					</div> <!-- /img-caption -->
+
+					<h4 class="interview-q">
+						Congue lacinia feugiat eu quisque enim enim, vestibulum a vitae adipiscing mi, hendrerit feugiat pellentesque?
+					</h4> <!-- /interview-q -->	
+
+					<p>Nec repellat enim. Volutpat mi vivamus a. Mauris vestibulum et sit aliquet nullam, gravida justo sit, nullam volutpat non, erat sit senectus. Ad felis nullam montes, ut quis, et nunc ut lorem bibendum cras nisl. Primis nunc eget donec velit nunc libero, pharetra senectus sed eget nibh tellus egestas, fugiat ridiculus mauris tellus eu, eu non. Dictum et aliquam magna, a sit dui ut, in vehicula consequat blandit. Congue auctor ligula ac massa, diam id risus adipiscing porttitor. Malesuada lacus et, justo nibh lobortis porttitor, lacus class metus pellentesque aenean eu, vitae nullam etiam ligula quis, venenatis pharetra nunc urna quam ipsum. Nisl sapien. Ac auctor sed tempus vitae lorem. Vitae turpis amet, ullamcorper ante sapien. A posuere, quis ultricies tempor tortor aliquet luctus ullamcorper, molestie libero sed nulla in, sodales vitae ultricies.</p>
+
+					<p>Orci ipsum, nibh in est habitasse torquent varius et, suscipit sit arcu enim. Vitae sed fusce platea habitasse, nulla nunc, in commodo, integer neque, sollicitudin in dictum vestibulum tempus. Elementum est massa lectus nec nam massa, magnis morbi laboris porta, arcu elit posuere vivamus ut semper aliquet, condimentum donec nisl sed in placerat. Vulputate id accumsan euismod aenean magnis, erat tincidunt lectus sodales, wisi fusce sollicitudin. At elit, mauris faucibus lacus sit.</p>
 
 					<img class="img-med" src="/_img/img-med.jpg" />
 					<div class="img-caption">
