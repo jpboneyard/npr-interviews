@@ -12,7 +12,6 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 			<div class="project-page-mod">
 				<div class="project-page-content">
 
-
 				<div class="intro-photo-credit">
 					<caption>Photo Langdon Alger</caption>
 				</div> <!-- /intro-photo-credit -->
@@ -23,6 +22,9 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 							<span class="sponsor-line">Interview Presented by</span> <span class="sponsor-line sponsor-line-b"><a href="http://www.frenchpaper.com/" target="_blank" />French Paper Co.</a></span>
 						</div> <!-- /intro-content -->
 					</div> <!-- /intro-mod -->
+
+					<!-- Share-Tools -->
+					<?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/share-tools.php"); ?>
 
 					<div class="lead-in-txt-mod">
 						<blockquote class="lead-in-txt">Nec repellat enim. Volutpat mi vivamus a. Mauris vestibulum et sit aliquet nullam, gravida justo sit, nullam volutpat non, erat sit senectus. Ad felis nullam montes, ut quis, et nunc ut lorem bibendum cras nisl. Mauris vestibulum et sit aliquet nullam, gravida justo sit, two thang.</blockquote>

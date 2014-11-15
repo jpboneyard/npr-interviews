@@ -16,7 +16,6 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 						<div class="intro-content">
 							<h1>The NPR Story</h1>
 							<div class="intro-meta">INTERVIEW SERIES & POSTER SHOWS</div>
-							<img class="intro-ornament" src="/_img/intro-ornament.jpg" />
 						</div> <!-- /intro-content -->
 					</div> <!-- /intro-mod -->
 
@@ -31,7 +30,8 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<div class="about-signature-mod">
 						<img src="/_img/about-signature.jpg" class="about-signature" />
 						<div class=""> 
-							JP Boneyard — Producer of The NPR
+							JP Boneyard<br/>
+							Producer, The NPR
 						</div>
 					</div> <!-- /about-signature-mod -->	
 

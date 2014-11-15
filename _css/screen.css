@@ -646,6 +646,26 @@ header {
   }
 }
 
+.headroom {
+  transition: transform 75ms linear;
+}
+
+.headroom--pinned {
+  transform: translateY(0%);
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.headroom--unpinned {
+  transform: translateY(-100%);
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
 .nav-chrome {
   height: 65px;
   width: 100%;
@@ -721,7 +741,7 @@ header {
   }
 }
 .nav-link-item a:hover {
-  color: #95b25e;
+  color: #4ecdc4;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
@@ -854,6 +874,36 @@ header {
 }
 
 /* ============================================= */
+/*	Share Tools							   		 */
+/* ============================================= */
+.share-tools-mod {
+  max-width: 650px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.share-tools {
+  position: relative;
+  margin-bottom: 30px;
+}
+@media (min-width: 950px) {
+  .share-tools {
+    position: absolute;
+    left: -65px;
+    top: 6px;
+  }
+  .share-tools > span {
+    display: block;
+    margin-bottom: 2px;
+  }
+}
+
+.st_sharethis_custom {
+  background: url("/_img/_icons/social-twitter.png") no-repeat scroll left top transparent;
+  padding: 0px 16px 0 0;
+}
+
+/* ============================================= */
 /*	Interview Template Style					 */
 /* ============================================= */
 .intro-mod {
@@ -917,7 +967,6 @@ header {
 
 .social-mod {
   border-top: 1px solid;
-  border-bottom: 1px solid;
   max-width: 650px;
   margin: 0 auto;
   padding: 10px 5px;
@@ -964,7 +1013,6 @@ header {
 
 .sponsor-social-list {
   text-align: center;
-  padding-top: 10px;
   text-align: left;
   max-width: 650px;
   margin: 0 auto;
@@ -1644,7 +1692,7 @@ header {
 .project-page-content p {
   margin: 0 auto;
   margin-bottom: 35px;
-  color: #444;
+  color: #333;
   font: 400 17px/162% "schoolbook-web", Georgia, Times, Times New Roman, serif;
   max-width: 650px;
 }
@@ -1785,7 +1833,6 @@ header {
   left: 20px;
   float: left;
   text-align: right;
-  z-index: 1;
   border: 1px solid;
   padding: 20px;
   padding-right: 16px;
@@ -1801,6 +1848,8 @@ header {
   font: 400 15px/126% "nimbus-sans", Arial, Helvetica, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   z-index: 4;
+  border-color: #E2E3E4;
+  color: #666;
 }
 @media (min-width: 800px) {
   .previous-tab {
@@ -1813,6 +1862,7 @@ header {
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+  color: #000;
 }
 .previous-tab a {
   padding: 20px;
@@ -1826,7 +1876,6 @@ header {
   top: 50%;
   right: 20px;
   float: right;
-  z-index: 1;
   border: 1px solid;
   margin-right: -270px;
   padding: 20px;
@@ -1841,6 +1890,8 @@ header {
   font: 400 15px/126% "nimbus-sans", Arial, Helvetica, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   z-index: 4;
+  border-color: #E2E3E4;
+  color: #666;
 }
 @media (min-width: 800px) {
   .next-tab {
@@ -1853,6 +1904,7 @@ header {
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+  color: #000;
 }
 .next-tab a {
   padding: 20px;
@@ -1882,8 +1934,9 @@ header {
 }
 
 .about-signature {
-  max-width: 170px;
+  max-width: 110px;
   margin: 0 auto;
+  margin-bottom: 2px;
 }
 
 /* ============================================= */
@@ -2662,7 +2715,7 @@ footer {
   position: relative;
   color: #fff;
   text-decoration: none;
-  background-color: #95b25e;
+  background-color: #4ecdc4;
   display: block;
   padding: 14px 12px;
   -webkit-border-radius: 8px;

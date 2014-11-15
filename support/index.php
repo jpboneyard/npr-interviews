@@ -16,7 +16,6 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 						<div class="intro-content">
 							<h1>Support the Series</h1>
 							<div class="intro-meta">BECAUSE PRINTMAKING AND POSTERS!</div>
-							<img class="intro-ornament" src="/_img/intro-ornament.jpg" />
 						</div> <!-- /intro-content -->
 					</div> <!-- /intro-mod -->
 

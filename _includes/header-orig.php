@@ -1,4 +1,4 @@
-<header id="header" class="header">
+<header>
 	<div class="nav-chrome">
 		<div class="nav-logo-mod">
 			<a href="/interview/aaron-draplin"><img src="/_img/nav-logo.png"/></a>
