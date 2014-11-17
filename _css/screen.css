@@ -723,7 +723,7 @@ header {
   }
 }
 .nav-link-item a:hover {
-  color: #4ecdc4;
+  color: #b8b85e;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
@@ -1846,7 +1846,7 @@ footer {
   position: relative;
   color: #fff;
   text-decoration: none;
-  background-color: #4ecdc4;
+  background-color: #b8b85e;
   display: block;
   padding: 14px 12px;
   -webkit-border-radius: 8px;

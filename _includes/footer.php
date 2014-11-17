@@ -3,11 +3,10 @@
 		<div class="ftr-info-mod">
 			<ul class="ftr-link-list">
 				<li class="ftr-link-item"><a href="/advertise" target="_blank">Advertise</a></li>
-				<li class="ftr-link-item"><a href="/advertise" target="_blank">Host The NPR</a></li>
-				<li class="ftr-link-item"><a href="/advertise" target="_blank">Contact</a></li>
-				<li class="social-item"><a href="http://dribbble.com/jpboneyard" target="_blank"><img class="social-item-img" src="/_img/_icons/social-dribbble-w.png"></li></a>	
+				<li class="ftr-link-item"><a href="/host" target="_blank">Host The NPR</a></li>
+				<li class="ftr-link-item"><a href="/contact" target="_blank">Contact</a></li>
 				<li class="social-item"><a href="http://instagram.com/jpboneyard" target="_blank"><img class="social-item-img" src="/_img/_icons/social-instagram-w.png"></li></a>	
-				<li class="social-item"><a href="https://twitter.com/jpboneyard" target="_blank"><img class="social-item-img" src="/_img/_icons/social-twitter-w.png"></li>	</a>	
+				<li class="social-item"><a href="https://twitter.com/thenpr" target="_blank"><img class="social-item-img" src="/_img/_icons/social-twitter-w.png"></li>	</a>	
 				<li class="social-item"><a href="http://jpboneyard.tumblr.com/" target="_blank"><img class="social-item-img" src="/_img/_icons/social-tumblr-w.png"></li></a>
 			</ul> <!-- /ftr-link-list -->
 
