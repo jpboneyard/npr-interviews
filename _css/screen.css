@@ -561,24 +561,6 @@ li a:hover {
   margin-bottom: 10px;
 }
 
-.npr-list {
-  width: 75%;
-  margin-right: 0px;
-}
-@media (min-width: 600px) {
-  .npr-list {
-    display: inline-block;
-    margin-right: 52px;
-    max-width: 500px;
-    width: 44%;
-    vertical-align: top;
-  }
-}
-
-.npr-list.last {
-  margin-right: 0px;
-}
-
 .block-quote-lg {
   font: 800 25px/130% "schoolbook-web", Georgia, Times, Times New Roman, serif;
   color: #333;
@@ -687,7 +669,7 @@ header {
 
 .nav-logo-mod {
   float: left;
-  padding-left: 20px;
+  padding-left: 52px;
 }
 @media (min-width: 760px) {
   .nav-logo-mod {
@@ -938,13 +920,12 @@ header {
 .sponsored-content-mod {
   border-top: 1px solid;
   border-bottom: 1px solid;
-  border-color: #999;
+  border-color: #C7C8CA;
   max-width: 650px;
   margin: 0 auto;
   text-align: center;
   padding: 36px 0px 36px 0px;
   margin-bottom: 35px;
-  background-color: #fafafa;
 }
 
 .sponsored-content {
@@ -1147,148 +1128,44 @@ header {
   }
 }
 
-/* ============================================= */
-/*	Home										 */
-/* ============================================= */
-.home-intro-mod {
+.end-graph-mod {
   position: relative;
+  max-width: 650px;
+  margin: 0 auto;
 }
 
-.home-intro:before {
-  content: '\0020';
-  background: url(../_img/home-intro-bite-in.png) 50% 50% repeat;
+.interview-credits {
+  border-top: 1px solid;
+  border-color: #444;
+  max-width: 100%;
+  padding-top: 10px;
   display: none;
-  height: 12px;
-  width: 100%;
-  position: absolute;
-  top: -12px;
-  left: 0px;
-  z-index: 4;
+  font: 400 13px/126% "nimbus-sans", Arial, Helvetica, Verdana, sans-serif;
+  color: #444;
 }
-@media (min-width: 700px) {
-  .home-intro:before {
+@media (min-width: 1000px) {
+  .interview-credits {
+    position: absolute;
+    top: 12px;
+    left: -150px;
+    text-align: right;
+    padding-left: 20px;
+    max-width: 175px;
     display: block;
-  }
-}
-@media (min-width: 1200px) {
-  .home-intro:before {
-    display: block;
-    height: 24px;
-    top: -22px;
   }
 }
 
-.home-intro {
-  background-color: #fff;
-  margin: 0 auto;
-  padding: 25px 15px;
-  margin-top: -25px;
-  width: 90%;
-}
-@media (min-width: 600px) {
-  .home-intro {
-    padding: 20px 15px;
-  }
-}
-@media (min-width: 700px) {
-  .home-intro {
-    margin-top: 0px;
-    width: 100%;
-  }
-}
-.home-intro h2 {
-  margin: 0 auto;
-  text-align: center;
-  font: 400 23px/136% "schoolbook-web", Georgia, Times, Times New Roman, serif;
-  max-width: 860px;
+.inter-credits-item {
   margin-bottom: 10px;
 }
-.home-intro h2 a {
-  color: #333332;
-}
-.home-intro h2 a:hover {
-  color: #22aba1;
-}
-@media (min-width: 600px) {
-  .home-intro h2 {
-    font-size: 41px;
-    line-height: 125%;
-  }
-}
-.home-intro p {
-  font: 400 20px/150% "alternate-gothic-no-1-d", sans-serif;
-  max-width: 800px;
-  margin: 0 auto;
-  color: #666;
-  text-align: center;
-}
 
-.home-tiles .tile-list-mod {
-  padding-top: 40px;
-}
-@media (min-width: 900px) {
-  .home-tiles .tile-list-mod {
-    padding-top: 50px;
-  }
-}
-
-.computron-topper {
-  position: absolute;
-  bottom: 0px;
-  z-index: 20;
-}
-
-.home-topper {
-  position: relative;
-  top: 65px;
-  right: 0;
-  left: 0;
-  width: 110%;
-}
-
-.home-intro-slide {
-  -webkit-animation: slidedown 3s linear;
-  -moz-animation: slidedown 3s linear;
-  -o-animation: slidedown 3s linear;
-}
-
-@-webkit-keyframes slidedown {
-  0% {
-    margin-top: -1000px;
-  }
-
-  100% {
-    margin-top: 0px;
-  }
-}
-
-@-moz-keyframes slidedown {
-  0% {
-    margin-top: -1000px;
-  }
-
-  100% {
-    margin-top: 0px;
-  }
-}
-
-@-o-keyframes slidedown {
-  0% {
-    margin-top: -1000px;
-  }
-
-  100% {
-    margin-top: 0px;
-  }
+.credit-name {
+  font-weight: bold;
 }
 
 /* ============================================= */
 /*	Featured Project							 */
 /* ============================================= */
-.about-topper {
-  background: url(/_img/jp-boneyard-john-boilard-2.jpg) center center no-repeat;
-}
-
 .feat-mod-cover {
   background-size: cover;
   -webkit-background-size: cover;
@@ -1315,6 +1192,7 @@ header {
   overflow: hidden;
   z-index: -1;
   padding-top: 65px;
+  background-color: #000;
   /*	@media (min-width: 400px) and (max-height: 1200px)  {
   		padding-bottom: 67.5%;
   	}
@@ -1375,286 +1253,11 @@ header {
 }
 
 .feat-project-img {
-  /*position: fixed; removed 11/4/14*/
-  top: 65px;
+  position: fixed;
+  top: 0px;
   right: 0;
   left: 0;
   width: 110%;
-}
-
-/* ============================================= */
-/*	Project Tiles								 */
-/* ============================================= */
-.tile-list-mod {
-  padding: 62px 15px 62px 15px;
-  *zoom: 1;
-  margin: 0 auto;
-  text-align: center;
-  background-color: #f7f7f7;
-  position: relative;
-}
-.tile-list-mod:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-@media (min-width: 500px) {
-  .tile-list-mod {
-    padding: 62px 32px 62px 32px;
-  }
-}
-@media (min-width: 900px) {
-  .tile-list-mod {
-    padding: 62px 72px 62px 72px;
-  }
-}
-@media (min-width: 1300px) {
-  .tile-list-mod {
-    padding: 62px 102px 62px 102px;
-  }
-}
-
-.inside {
-  padding-top: 82px;
-}
-
-.inside-projects .projects-mod {
-  padding-top: 82px;
-}
-
-.more-work-mod {
-  margin: 0 auto;
-  text-align: center;
-  margin-bottom: -40px;
-  background-color: #fff;
-}
-@media (min-width: 600px) {
-  .more-work-mod {
-    margin-top: 0px;
-  }
-}
-.more-work-mod img {
-  max-width: 75px;
-  position: relative;
-  z-index: 3;
-}
-@media (min-width: 760px) {
-  .more-work-mod img {
-    max-width: 92px;
-  }
-}
-
-.tile-mod:hover .tile-details {
-  -webkit-transition: opacity 0.2s ease-in;
-  -moz-transition: opacity 0.2s ease-in;
-  -o-transition: opacity 0.2s ease-in;
-  transition: opacity 0.2s ease-in;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
-}
-
-.shows-mod {
-  margin: 0 auto;
-  *zoom: 1;
-}
-.shows-mod:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media (min-width: 501px) and (max-width: 1100px) {
-  .tile-list {
-    margin-left: -20px;
-    *zoom: 1;
-  }
-  .tile-list:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .tile-list .media-block {
-    float: left;
-    padding-left: 20px;
-    width: 50%;
-  }
-  .tile-list .media-block:nth-child(2n+3) {
-    clear: left;
-  }
-}
-@media (min-width: 1100px) {
-  .tile-list {
-    margin-left: -20px;
-    *zoom: 1;
-    margin: 0 auto;
-  }
-  .tile-list:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .tile-list .media-block {
-    float: left;
-    padding-left: 20px;
-    width: 33.3333%;
-  }
-  .tile-list .media-block:nth-child(3n+4) {
-    clear: left;
-  }
-  .ie7 .tile-list .media-block {
-    width: 33%;
-  }
-}
-
-.tile-item {
-  margin: 0 auto;
-  text-align: center;
-  margin-bottom: 20px;
-  position: relative;
-  overflow: hidden;
-}
-
-.show-img-sm {
-  width: 100%;
-}
-
-.tile-details {
-  position: absolute;
-  background: #fff;
-  width: 100%;
-  height: 100%;
-  padding: 18% 2%;
-  left: 0;
-  bottom: 0;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  text-align: center;
-  font: 800 13px/140% "alternate-gothic-no-1-d", sans-serif;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-  opacity: 0;
-  -webkit-transition: opacity 0.7s ease-in;
-  -moz-transition: opacity 0.7s ease-in;
-  -o-transition: opacity 0.7s ease-in;
-  transition: opacity 0.7s ease-in;
-  border: 1px solid #fff;
-}
-.tile-details .overline {
-  margin-bottom: 0px;
-}
-.tile-details h4 {
-  font-size: 17px;
-}
-@media (min-width: 800px) {
-  .tile-details h4 {
-    font-size: 20px;
-  }
-}
-@media (min-width: 1300px) {
-  .tile-details h4 {
-    font-size: 23px;
-  }
-}
-
-.tile-1 {
-  animation: fadein .9s;
-  -webkit-animation: fadein .9s;
-}
-
-.tile-2 {
-  animation: fadein 1.8s;
-  -webkit-animation: fadein 1.8s;
-}
-
-.tile-3 {
-  animation: fadein 2.7s;
-  -webkit-animation: fadein 2.7s;
-}
-
-.tile-4 {
-  animation: fadein 5.4s;
-  -webkit-animation: fadein 5.4s;
-}
-
-.tile-5 {
-  animation: fadein 4.5s;
-  -webkit-animation: fadein 4.5s;
-}
-
-.tile-6 {
-  animation: fadein 3.6s;
-  -webkit-animation: fadein 3.6s;
-}
-
-.tile-7 {
-  animation: fadein 6.3s;
-  -webkit-animation: fadein 6.3s;
-}
-
-.tile-8 {
-  animation: fadein 7.2s;
-  -webkit-animation: fadein 7.2s;
-}
-
-.tile-9 {
-  animation: fadein 8.1s;
-  -webkit-animation: fadein 8.1s;
-  margin-left: 0px;
-}
-@media (min-width: 501px) {
-  .tile-9 {
-    margin-left: 25%;
-  }
-}
-@media (min-width: 1100px) {
-  .tile-9 {
-    margin-left: 0px;
-  }
-}
-
-@media (min-width: 10px) and (max-width: 1000px) {
-  .tile-1, .tile-2, .tile-3, .tile-4, .tile-5, .tile-6, .tile-7, .tile-8, .tile-9 {
-    animation: fadein .1s;
-    -webkit-animation: fadein .1s;
-  }
-}
-
-@-webkit-keyframes fadein {
-  0% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-  }
-
-  50% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-  }
-
-  100% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes fadein {
-  0% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-  }
-
-  50% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-  }
-
-  100% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-    opacity: 1;
-  }
-}
-
-.inside-projects .tile-1, .inside-projects .tile-2, .inside-projects .tile-3, .inside-projects .tile-4, .inside-projects .tile-5, .inside-projects .tile-6, .inside-projects .tile-7, .inside-projects .tile-8, .inside-projects .tile-9 {
-  animation: fadein .1s;
-  -webkit-animation: fadein .1s;
 }
 
 /* ============================================= */
@@ -1692,7 +1295,7 @@ header {
 .project-page-content p {
   margin: 0 auto;
   margin-bottom: 35px;
-  color: #333;
+  color: #222;
   font: 400 17px/162% "schoolbook-web", Georgia, Times, Times New Roman, serif;
   max-width: 650px;
 }
@@ -1825,7 +1428,7 @@ header {
 }
 
 /* ============================================= */
-/*	Tag Navigation								 */
+/*	Tab Navigation								 */
 /* ============================================= */
 .previous-tab {
   position: fixed;
@@ -2063,19 +1666,6 @@ footer {
   max-width: 92px;
 }
 
-.ftr-arrow {
-  position: absolute;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-  opacity: 0;
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-  top: -40px;
-  left: 50%;
-  margin-left: -46px;
-}
-
 .ftr-logo {
   position: absolute;
   top: -40px;
@@ -2242,465 +1832,6 @@ footer {
   font-size: 20px;
   color: #ddd;
   text-align: center;
-}
-
-/* ============================================= */
-/*	Spark Camp Project Page				 		 */
-/* ============================================= */
-.spark-camp-site {
-  display: none;
-  visibility: hidden;
-  -webkit-transform: translateX(1024px);
-  -moz-transform: translateX(1024px);
-  -ms-transform: translateX(1024px);
-  -o-transform: translateX(1024px);
-  transform: translateX(1024px);
-}
-@media (min-width: 1025px) {
-  .spark-camp-site {
-    -webkit-transform: translateX(0px);
-    -moz-transform: translateX(0px);
-    -ms-transform: translateX(0px);
-    -o-transform: translateX(0px);
-    transform: translateX(0px);
-    visibility: visible;
-    display: block;
-    background: url(../_img/spark-camp-web-site.jpg) 50% 50% no-repeat;
-    background-size: 86%;
-  }
-}
-
-.spark-camp-web-mod {
-  position: relative;
-}
-
-.spark-camp-mobile {
-  position: absolute;
-  bottom: 0px;
-  right: 40px;
-  display: none;
-}
-@media (min-width: 1025px) {
-  .spark-camp-mobile {
-    display: block;
-  }
-}
-.spark-camp-mobile img {
-  max-width: 160px;
-  width: 100%;
-}
-
-/* ============================================= */
-/*	Misc Page Projects Page				 	     */
-/* ============================================= */
-.drinks-banner {
-  position: relative;
-  height: 150px;
-  background: url(../_img/drinks-stars.gif);
-  background-size: 85% 85%;
-}
-@media (min-width: 400px) {
-  .drinks-banner {
-    height: 200px;
-  }
-}
-@media (min-width: 600px) {
-  .drinks-banner {
-    height: 300px;
-  }
-}
-@media (min-width: 800px) {
-  .drinks-banner {
-    height: 450px;
-  }
-}
-@media (min-width: 1200px) {
-  .drinks-banner {
-    height: 650px;
-  }
-}
-@media (min-width: 1950px) {
-  .drinks-banner {
-    height: 1000px;
-  }
-}
-.drinks-banner:hover .drinks-sign-neon {
-  opacity: 1;
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-}
-
-.drinks-img-mod {
-  margin: 0 auto;
-}
-
-.drinks-city {
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-}
-
-.drinks-sign {
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-  z-index: 1;
-}
-
-.drinks-sign-neon {
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-  opacity: 0;
-  z-index: 2;
-}
-
-/* ============================================= */
-/*	Letter Project Page				 			 */
-/* ============================================= */
-.letters-mod img {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-  opacity: 0;
-}
-
-/* ============================================= */
-/*	Daily Orange Project Page				 	 */
-/* ============================================= */
-.do-site {
-  position: relative;
-}
-
-.do-blurb {
-  position: absolute;
-  top: 150px;
-  right: -80px;
-  max-width: 230px;
-  display: none;
-}
-@media (min-width: 900px) {
-  .do-blurb {
-    display: block;
-  }
-}
-
-/* ============================================= */
-/*	Boston Hoops Project Page					 */
-/* ============================================= */
-.feat-project-mod-hoops {
-  position: relative;
-  background-color: #14a798;
-}
-
-.blimp-animation {
-  z-index: 333;
-  margin-top: 10px;
-  max-width: 180px;
-  position: absolute;
-  top: 43%;
-}
-
-.hoops-city {
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-}
-
-.hoops-title {
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-  z-index: 4;
-}
-
-.hoops-ipad {
-  position: relative;
-}
-
-.hoops-mov {
-  position: absolute;
-  display: block;
-  top: 0px;
-}
-
-.boston-hoops-web-mod {
-  position: relative;
-  *zoom: 1;
-}
-.boston-hoops-web-mod:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.boston-hoops-site {
-  display: none;
-  visibility: hidden;
-  -webkit-transform: translateX(1024px);
-  -moz-transform: translateX(1024px);
-  -ms-transform: translateX(1024px);
-  -o-transform: translateX(1024px);
-  transform: translateX(1024px);
-}
-@media (min-width: 1025px) {
-  .boston-hoops-site {
-    -webkit-transform: translateX(0px);
-    -moz-transform: translateX(0px);
-    -ms-transform: translateX(0px);
-    -o-transform: translateX(0px);
-    transform: translateX(0px);
-    visibility: visible;
-    display: block;
-    background: url(../_img/boston-hoops-site.jpg) 50% 50% no-repeat;
-    background-size: 100% auto;
-  }
-}
-
-/* ============================================= */
-/*	NPR Project Page							 */
-/* ============================================= */
-.npr-site {
-  display: none;
-  visibility: hidden;
-  -webkit-transform: translateX(1024px);
-  -moz-transform: translateX(1024px);
-  -ms-transform: translateX(1024px);
-  -o-transform: translateX(1024px);
-  transform: translateX(1024px);
-}
-@media (min-width: 1025px) {
-  .npr-site {
-    -webkit-transform: translateX(0px);
-    -moz-transform: translateX(0px);
-    -ms-transform: translateX(0px);
-    -o-transform: translateX(0px);
-    transform: translateX(0px);
-    visibility: visible;
-    display: block;
-    background: url(../_img/national-poster-retrospecticus-web.jpg) 50% 50% no-repeat;
-    background-size: 86%;
-  }
-}
-
-.hdr-img {
-  max-width: 225px;
-  margin-right: 20%;
-  margin-bottom: 10px;
-  width: 100%;
-}
-@media (min-width: 399px) {
-  .hdr-img {
-    width: 80%;
-    max-width: 600px;
-    margin-bottom: 15px;
-    margin-right: 30px;
-  }
-}
-@media (min-width: 1002px) {
-  .hdr-img {
-    width: 100%;
-    max-width: 787px;
-    margin-bottom: 15px;
-    margin-right: 0px;
-  }
-}
-
-.hdr-img-container {
-  margin: 0 auto;
-  display: block;
-  max-width: 800px;
-  width: 100%;
-}
-
-.hdr-sign-container {
-  position: relative;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 28px;
-  max-width: 1000px;
-}
-
-.hdr-pin {
-  position: absolute;
-  float: left;
-  height: 100%;
-  top: 0px;
-  margin-left: 5px;
-  text-align: center;
-  z-index: 2;
-}
-
-.hdr-sign {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-}
-
-.hdr-slide-img {
-  width: 100%;
-}
-
-@-webkit-keyframes swing {
-  20%, 40%, 60%, 80%, 100% {
-    -webkit-transform-origin: top center;
-  }
-
-  20% {
-    -webkit-transform: rotate(10deg);
-  }
-
-  40% {
-    -webkit-transform: rotate(-10deg);
-  }
-
-  60% {
-    -webkit-transform: rotate(5deg);
-  }
-
-  80% {
-    -webkit-transform: rotate(-5deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(0deg);
-  }
-}
-
-@-moz-keyframes swing {
-  20% {
-    -moz-transform: rotate(10deg);
-  }
-
-  40% {
-    -moz-transform: rotate(-10deg);
-  }
-
-  60% {
-    -moz-transform: rotate(5deg);
-  }
-
-  80% {
-    -moz-transform: rotate(-5deg);
-  }
-
-  100% {
-    -moz-transform: rotate(0deg);
-  }
-}
-
-@-o-keyframes swing {
-  20% {
-    -o-transform: rotate(10deg);
-  }
-
-  40% {
-    -o-transform: rotate(-10deg);
-  }
-
-  60% {
-    -o-transform: rotate(5deg);
-  }
-
-  80% {
-    -o-transform: rotate(-5deg);
-  }
-
-  100% {
-    -o-transform: rotate(0deg);
-  }
-}
-
-@keyframes swing {
-  20% {
-    transform: rotate(10deg);
-  }
-
-  40% {
-    transform: rotate(-10deg);
-  }
-
-  60% {
-    transform: rotate(5deg);
-  }
-
-  80% {
-    transform: rotate(-5deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-.swing {
-  -webkit-transform-origin: top center;
-  -moz-transform-origin: top center;
-  -o-transform-origin: top center;
-  transform-origin: top center;
-  -webkit-animation-name: swing;
-  -moz-animation-name: swing;
-  -o-animation-name: swing;
-  animation-name: swing;
-  -webkit-animation-fill-mode: both;
-  -moz-animation-fill-mode: both;
-  -ms-animation-fill-mode: both;
-  -o-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-duration: 3s;
-  -moz-animation-duration: 3s;
-  -ms-animation-duration: 3s;
-  -o-animation-duration: 3s;
-  animation-duration: 3s;
-  	/* -moz-animation: 3s ease 0s normal none infinite swing;
-      -moz-transform-origin: center top;
-      -webkit-animation:swing 3s infinite;
-      -webkit-transform-origin:top;*/
-}
-
-.blimp-animation {
-  -webkit-animation: blimp 50s linear infinite;
-  -moz-animation: blimp 50s linear infinite;
-  -o-animation: blimp 50s linear infinite;
-}
-
-@-webkit-keyframes blimp {
-  0% {
-    margin-left: 1100px;
-  }
-
-  100% {
-    margin-left: -1000px;
-  }
-}
-
-@-moz-keyframes blimp {
-  0% {
-    margin-left: 1100px;
-  }
-
-  100% {
-    margin-left: -1000px;
-  }
-}
-
-@-o-keyframes blimp {
-  0% {
-    margin-left: 1100px;
-  }
-
-  100% {
-    margin-left: -1000px;
-  }
 }
 
 /* ============================================= */

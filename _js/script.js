@@ -2,9 +2,11 @@ $(document).ready(function() {
 
 var windowWidth = $(window).width();
 
-  //randomize which ad is loaded on the site
-  var images = ['big-box-ad-2.jpg', 'big-box-ad-3.jpg', 'big-box-ad.gif'];
-  $('<img src="/_img/_ads/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('.sponsored-content-img');
+
+//randomize which ad is loaded on the site
+var images = ['big-box-ad-2.gif', 'big-box-ad-3.gif', 'big-box-ad.gif'];
+$('<img src="/_img/_ads/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('.sponsored-content-img');
+
 
 //Mobile nav toggling action-action-action
 	$(".m-nav-toggle").click(function(){
@@ -22,6 +24,7 @@ var windowWidth = $(window).width();
         }
     })
 
+
 // grab an element
 var myElement = document.querySelector("header");
 // construct an instance of Headroom, passing the element
@@ -29,10 +32,18 @@ var headroom  = new Headroom(myElement);
 // initialise
 headroom.init(); 
 
+
 //Anchor Slide
 	$("a.anchorLink").anchorAnimate();
 });
 
+
+//Fade Topper Image
+var divs = $('.fade-me');
+$(window).on('scroll', function() {
+   var st = $(this).scrollTop();
+   divs.css({ 'opacity' : (1 - st/1200) });
+});
 
 
 

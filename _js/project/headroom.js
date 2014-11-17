@@ -373,7 +373,7 @@
       up : 0,
       down : 0
     },
-    offset : 205,
+    offset : 5,
     scroller: window,
     classes : {
       pinned : 'headroom--pinned',

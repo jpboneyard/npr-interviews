@@ -6,7 +6,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 		<div id="main" role="main">
 			<div class="feat-project-mod" id="top">
-				<img class="feat-project-img" src="/_img/topper-draplin.jpg" alt="National Poster Retrospecticus Topper" />
+				<img class="feat-project-img fade-me" src="/_img/topper-draplin.jpg" alt="National Poster Retrospecticus Topper" />
 			</div> <!-- /feat-project-mod -->
 
 			<div class="project-page-mod">
@@ -144,8 +144,21 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<p>At quis etiam, praesent aut facilisi at non sit tempus. At malesuada lorem, pede eu duis dictum ullamcorper ipsum faucibus, inceptos pede accumsan. Gravida voluptates platea, massa quam ligula est ante in, donec dolor velit, ac luctus. Mauris lobortis elit, nonummy vel vestibulum, praesent dolor alias mauris posuere sed pede. Eros duis, risus eros lobortis sed urna ac iaculis, aliquam iaculis ut non sem cursus interdum, sed phasellus. Ante mus, purus pulvinar tempus vestibulum, esse id cras, fusce rutrum elit eu eros faucibus. In amet et penatibus quis quis gravida, elit suspendisse eu magnis, fermentum diam nonummy mus, posuere magna leo ac, ligula elementum. Elit nec congue integer etiam, quae tincidunt, et odio, aliquam consequat tempor. Tristique nulla et lacinia convallis, quis nulla cum. Consequat quis aptent suscipit, vivamus libero lacus odio cras pulvinar..</p>
 
-					<p>Orci arcu mattis et a integer nisl. A nulla torquent urna justo nisi et, amet lacus, egestas ipsum penatibus nullam, fames duis sed tortor pretium quis ut, mauris fermentum velit. In facilisis, nibh morbi, et sapien nam, wisi luctus eros odio ut sed. Sapien porta, facilisis luctus neque tellus donec a, at tortor sed id ullamcorper eget vitae. Lacus ligula enim sollicitudin ipsum sed imperdiet, aut nonummy, nunc elit tristique, etiam dictum augue nisl adipiscing. Eu id. Eget nisl vestibulum vestibulum. Suspendisse vitae scelerisque, vitae eros, tellus nascetur faucibus. Tellus penatibus blandit, suspendisse posuere sed id tortor, curabitur imperdiet tempor nulla, nunc lacus, iaculis ullamcorper.</p>	
+					<div class="end-graph-mod">
+						<p>Orci arcu mattis et a integer nisl. A nulla torquent urna justo nisi et, amet lacus, egestas ipsum penatibus nullam, fames duis sed tortor pretium quis ut, mauris fermentum velit. In facilisis, nibh morbi, et sapien nam, wisi luctus eros odio ut sed. Sapien porta, facilisis luctus neque tellus donec a, at tortor sed id ullamcorper eget vitae. Lacus ligula enim sollicitudin ipsum sed imperdiet, aut nonummy, nunc elit tristique, etiam dictum augue nisl adipiscing. Eu id. Eget nisl vestibulum vestibulum. Suspendisse vitae scelerisque, vitae eros, tellus nascetur faucibus. Tellus penatibus blandit, suspendisse posuere sed id tortor, curabitur imperdiet tempor nulla, nunc lacus, iaculis ullamcorper.</p>	
 						
+						<ul class="interview-credits">
+							<li class="inter-credits-item"> 
+								<div class="credit-title">Photos</div>
+								<div class="credit-name">Jeremy Barnes</div>
+							</li>
+							<li class="inter-credits-item"> 
+								<div class="credit-title">Interview</div>
+								<div class="credit-name">JP Boneyard</div>
+							</li>
+						</ul>
+					</div> <!-- /end-graph-mod -->
+
 					<p>***</p>
 
 					<div class="sponsor-end">
