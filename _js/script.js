@@ -46,6 +46,7 @@ $(window).on('scroll', function() {
 });
 
 
+//Input Article Title Text into Follow Header
 var str = $( ".interview-name" ).text();
 $( ".social-name" ).html( str );
 
