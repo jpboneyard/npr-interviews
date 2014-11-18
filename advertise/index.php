@@ -6,7 +6,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 		<div id="main" role="main">
 			<div class="feat-project-mod" id="top">
-				<img class="feat-project-img" src="/_img/topper-about.gif" alt="National Poster Retrospecticus Topper" />
+				<img class="feat-project-img" src="/_img/topper-advertise.jpg" alt="National Poster Retrospecticus Topper" />
 			</div> <!-- /feat-project-mod -->
 
 			<div class="project-page-mod">
@@ -14,35 +14,26 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="intro-mod">
 						<div class="intro-content">
-							<h1>The NPR Story</h1>
-							<div class="intro-meta">INTERVIEW SERIES & POSTER SHOWS</div>
+							<h1>Advertise With Us!</h1>
+							<div class="intro-meta">Because Monthly Ads are Primo</div>
 						</div> <!-- /intro-content -->
 					</div> <!-- /intro-mod -->
 
 					<div class="lead-in-txt-mod">
-						<blockquote class="lead-in-txt">The NPR Interview Series was born out of The NPR touring poster show. Our goal is to document and celebrate the efforts of artists and printmakers in the poster world. We'd also hope to provide insight into their process and inspire the next generation of poster makers and enthusiasts. </blockquote>
+						<blockquote class="lead-in-txt">Advertising with The NPR is fun and easy to do! Reach an audience of enthusiastic printmakers, designers, illustrators and poster nerds!</blockquote>
 					</div> <!-- /lead-in-txt -->
 
-					<p>Touring around the country with The NPR has been one of the greatest adventures of my life. It is through this adventure that I am able to combine my design skills, show planning background, love for community based events, enthusiasm for travel and passion for posters into one amazing experience. I am also fortunate enough to meet some of the most genuine and kindest people while on the road—most of whom share the same enthusiasm for posters. This enthusiasm is like fuel that helps keep me going while we make those eleven hour drives through crazy weather and deserted stretches of highway, hang 300 posters and host a packed show for one-night-only in each city.</p>					
+					<h3 class="section-h">Sponsor a Story: $500 Per Interview</h3>
+					<p>Each story we publish has one open slot for partnering with us. Presenting an ad on the site means you are our site-wide sponsor for the entire month. Even better is the fact that you'll be the our featured partner for the entire life of the story.</p>				
+	
 
-					<p>Touring around the country with The NPR has been one of the greatest adventures of my life. It is through this adventure that I am able to combine my design skills, show planning background, love for community based events, enthusiasm for travel and passion for posters into one amazing experience. I am also fortunate enough to meet some of the most genuine and kindest people while on the road—most of whom share the same enthusiasm for posters. This enthusiasm is like fuel that helps keep me going while we make those eleven hour drives through crazy weather and deserted stretches of highway, hang 300 posters and host a packed show for one-night-only in each city.</p>
+					<h3 class="section-h">Standard Ads: $50 per month</h3>
+					<p>We also feature rotating advertisements across our site. You have a 300px x 250px canvas to go nuts with. You'll be in rotation in each story stream and across the site.</p>
+
+					<btn class="btn-submit btn-txt"> <a href="mailto:jpboneyard@gmail.com" target="_blank">Inquire Today!</a></btn>
+
 						
-					<div class="about-signature-mod">
-						<img src="/_img/about-signature.jpg" class="about-signature" />
-						<div class=""> 
-							JP Boneyard<br/>
-							Producer, The NPR
-						</div>
-					</div> <!-- /about-signature-mod -->	
 
-					<div class="social-mod">
-						Follow The NPR
-					</div> <!-- /social-mod -->		
-					<ul class="sponsor-social-list">
-						<li class="social-item"><a href="http://instagram.com/jpboneyard" target="_blank"><img class="social-item-img" src="/_img/_icons/social-instagram.png"></li></a>	
-						<li class="social-item"><a href="https://twitter.com/thenpr" target="_blank"><img class="social-item-img" src="/_img/_icons/social-twitter.png"></li></a>	
-						<li class="social-item"><a href="http://jpboneyard.tumblr.com/" target="_blank"><img class="social-item-img" src="/_img/_icons/social-tumblr.png"></li></a>
-					</ul> <!-- /social-mod -->	
 				</div> <!-- /project-page-content -->					
 			</div> <!-- /project-page-mod -->
 

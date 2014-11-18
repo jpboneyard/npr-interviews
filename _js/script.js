@@ -46,6 +46,9 @@ $(window).on('scroll', function() {
 });
 
 
+var str = $( ".interview-name" ).text();
+$( ".social-name" ).html( str );
+
 
 
 

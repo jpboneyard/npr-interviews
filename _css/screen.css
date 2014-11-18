@@ -669,11 +669,12 @@ header {
 
 .nav-logo-mod {
   float: left;
-  padding-left: 52px;
+  padding-left: 0px;
 }
 @media (min-width: 760px) {
   .nav-logo-mod {
     padding-top: 0px;
+    padding-left: 52px;
   }
 }
 .nav-logo-mod img {
@@ -944,6 +945,16 @@ header {
   display: block;
   margin: 0 auto;
   font: 400 15px/140% "nimbus-sans", Arial, Helvetica, Verdana, sans-serif;
+}
+
+.social-mod-start {
+  border-top: 1px solid;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 10px 5px;
+  font: 400 27px/126% "alternate-gothic-no-1-d", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .social-mod {
@@ -1220,22 +1231,17 @@ header {
 }
 @media (min-width: 400px) and (max-height: 1200px) {
   .feat-project-mod {
-    padding-bottom: 65.5%;
+    padding-bottom: 58%;
   }
 }
-@media (min-width: 500px) {
+@media (min-width: 800px) and (max-height: 1400px) {
   .feat-project-mod {
-    padding-bottom: 61.5%;
-  }
-}
-@media (min-width: 1000px) and (max-height: 1400px) {
-  .feat-project-mod {
-    padding-bottom: 56.5%;
+    padding-bottom: 47%;
   }
 }
 @media (min-width: 1200px) and (max-height: 1100px) {
   .feat-project-mod {
-    padding-bottom: 55%;
+    padding-bottom: 50%;
   }
 }
 @media (min-width: 1400px) and (max-height: 1300px) {
@@ -1253,11 +1259,15 @@ header {
 }
 
 .feat-project-img {
-  position: fixed;
-  top: 0px;
-  right: 0;
-  left: 0;
   width: 110%;
+}
+@media (min-width: 800px) {
+  .feat-project-img {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+  }
 }
 
 /* ============================================= */
@@ -1278,13 +1288,13 @@ header {
 
 .project-page-content {
   background-color: #fff;
-  padding: 0px 15px;
+  padding: 30px 15px;
   margin: 0 auto;
   display: block;
 }
 @media (min-width: 450px) {
   .project-page-content {
-    padding: 52px 25px;
+    padding: 45px 25px;
   }
 }
 @media (min-width: 960px) {
