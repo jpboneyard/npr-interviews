@@ -156,6 +156,10 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 								<div class="credit-title">Interview</div>
 								<div class="credit-name">JP Boneyard</div>
 							</li>
+							<li class="inter-credits-item"> 
+								<div class="credit-title">Editing</div>
+								<div class="credit-name">Matt Wilding</div>
+							</li>
 						</ul>
 					</div> <!-- /end-graph-mod -->
 

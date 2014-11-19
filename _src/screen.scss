@@ -1241,20 +1241,44 @@ footer {
 }
 
 .article-end-tz-mod {
-	max-width: $standard-width;
 	margin: 0 auto;
 	text-align: center;
-	margin-bottom: 75px;
 }
 
 .article-end-tz {
-	@include media-grid(2, 3%);
+	@include media-grid(2, 0%);
 	width: 103%;
+	border-top: 1px solid;
+	border-color: #000;
+	position: relative;
+	background-color: #fff;
+	z-index: 10;
 
 	&:first-child {
 		margin-left: -3%;
 	}
 }
+
+.more-interviews {
+	margin: 0 auto;
+	padding: 10px;
+	font: 400 28px/126% $sans-title;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	border: 1px solid;
+	text-align: center;
+	max-width: 218px;
+	background-color: #fff;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	top: 40%;
+	pointer-events: none;
+}
+
 
 .end-tz-img {
 	width: 100%;
@@ -1270,16 +1294,17 @@ footer {
 }//article-end-item
 
 .end-tz-txt-mod {
-	background-color: #000;
-	padding: 15px;
+	background-color: #222;
+	padding: 20px;
 	z-index: 4;
 	@include trans;
 	@include opacity(1);
+	border-right: 1px solid;
+	border-color: #000;
 }
 
 .end-tz-txt {
-	font: 400 20px/126% $serif;
-	background-color: #000;
+	font: 400 25px/126% $serif;
 	color: #fff;
 }
 
@@ -1288,17 +1313,6 @@ footer {
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-}
-
-.more-interviews {
-	max-width: $standard-width;
-	margin: 0 auto;
-	padding: 10px 5px;
-	font: 400 26px/126% $sans-title;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	text-align: left;
-	border-top: 4px double;
 }
 
 

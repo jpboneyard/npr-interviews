@@ -1,10 +1,10 @@
 <div class="article-end-tz-mod">
 
-	<div class="article-end-tz">
-		<div class="more-interviews">
-			More Interviews
-		</div> <!-- /social-mod -->	
+	<div class="more-interviews">
+		More Interviews
+	</div> <!-- /social-mod -->	
 
+	<div class="article-end-tz">
 		<a href="#">
 			<div class="article-end-item media-block">
 				<img class="end-tz-img" src="/_img/danger-tz.jpg" />
