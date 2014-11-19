@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5 {
 
 h1 {
 	margin: 0 auto;
-	font: 400 70px/90% $sans-title;
+	font: 400 68px/90% $sans-title;
 	max-width: $standard-width;
 	color: #000;
 	text-transform: uppercase;
@@ -136,7 +136,7 @@ h4 {
 }
 
 .section-intro-h {
-	font: 600 43px/113% $serif;
+	font: 600 33px/113% $serif;
 	color: #000;
 
 	@media (min-width: 800px) {
@@ -172,7 +172,7 @@ li {
 }//li
 
 .lead-in-txt {
-	font: 800 23px/138% $serif;
+	font: 800 22px/138% $serif;
 	color: #111;
 	margin-bottom: 8px;
 	-webkit-font-smoothing: antialiased;
@@ -188,7 +188,7 @@ li {
 
 
 .interview-q {
-	font: 800 25px/162% $serif;
+	font: 800 17px/162% $serif;
 	color: #111;
 	-webkit-font-smoothing: antialiased;
 	max-width: $standard-width;
@@ -213,7 +213,7 @@ li {
 }
 
 .block-quote-lg {
-	font: 800 25px/130% $serif;
+	font: 800 24px/130% $serif;
 	color: #333;
 	-webkit-font-smoothing: antialiased;
 	max-width: 1100px;
@@ -251,7 +251,7 @@ li {
 	margin-top: -20px;
 	margin-bottom: 30px;
 	color: #888;
-	max-width: 1200px;
+	max-width: $med-width;	
 }
 
 /* ============================================= */
@@ -609,10 +609,15 @@ header {
 }
 
 .sponsor-end-img {
-	max-width: 55px;
-	margin-right: 15px;
+	max-width: 50px;
+	margin-right: 12px;
 	margin-bottom: 15px;
 	float: left;
+
+	@media (min-width: 800px) {
+		max-width: 55px;
+		margin-right: 15px;
+	}//mq800
 }
 
 .sponsor-end-img-sm {
@@ -630,7 +635,11 @@ header {
 
 .sponsor-end-txt {
 	display: inline;
-	font: 400 25px/126% $sans-title;
+	font: 400 23px/126% $sans-title;
+
+	@media (min-width: 700px) {
+		font-size: 25px;
+	}//mq700
 }
 
 .sponsor-end-txt-lt {
@@ -652,6 +661,11 @@ header {
 	margin: 0 auto;
 }
 
+.img-grid-3-mod {
+	max-width: $med-width;
+	margin: 0 auto;
+}
+
 .img-grid-3 {
 	@include media-grid(3, 3%);
 	margin: 0 auto;
@@ -664,7 +678,7 @@ header {
 }
 
 .img-grid-3-sm-mod {
-	max-width: 1200px;
+	max-width: $med-width;
 	margin: 0 auto;
 }
 
@@ -680,7 +694,7 @@ header {
 }
 
 .img-grid-2-mod {
-	max-width: 1200px;
+	max-width: $med-width;
 	margin: 0 auto;
 }
 
@@ -857,7 +871,7 @@ header {
 
 	p {
 		margin: 0 auto;
-		margin-bottom: 35px;
+		margin-bottom: 25px;
 		color: #222;
 		font: 400 17px/162% $serif;
 		max-width: $standard-width;
@@ -865,6 +879,7 @@ header {
 		@media (min-width: 500px) {
 			font-size: 21px;
 			line-height: 162%;
+			margin-bottom: 35px;
 		}
 
 		&:last-child {
@@ -890,7 +905,7 @@ header {
 }
 
 .img-med {
-	max-width: 1200px;
+	max-width: $med-width;
 	display: block;
 	margin: 0 auto;
 	width: 100%;
@@ -1000,7 +1015,7 @@ header {
 	border-color: #E2E3E4;
 	color: #666;
 
-	@media (min-width: 800px) {
+	@media (min-width: 1000px) {
 		display: block;
 	}//mq800
 
@@ -1037,7 +1052,7 @@ header {
 	border-color: #E2E3E4;
 	color: #666;
 	
-	@media (min-width: 800px) {
+	@media (min-width: 1000px) {
 		display: block;
 	}//mq800
 
@@ -1095,10 +1110,11 @@ footer {
 	color: #fff;
 	padding: 35px;
 	height: 500px;
+	z-index: 10;
 
 	@media (min-width: 1100px) {
 		height: 350px;
-		padding: 70px;
+		padding: 85px;
 	}//mq
 }
 
@@ -1115,7 +1131,7 @@ footer {
 
 .ftr-link-item {
 	display: inline;
-	font: 400 24px/126% $sans-title;
+	font: 400 21px/126% $sans-title;
 	-webkit-font-smoothing: antialiased;	
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -1124,6 +1140,10 @@ footer {
 	a {
 		color: #fff;
 	}
+
+	@media (min-width: 800px) {
+		font-size: 24px;
+	}//mq800
 }
 
 .ftr-info-mod {
@@ -1141,19 +1161,34 @@ footer {
 }
 
 .ftr-blurb-mod {
-	padding: 20px 30px 0px 0px;
+	padding: 20px 30px 20px 0px;
+	border-bottom: 1px solid;
+
+	@media (min-width: 1000px) {
+		border-bottom: 0px;
+		padding-bottom: 0px;
+	}//mq1000
 }
 
 .ftr-blurb {
-	font: 400 16px/130% $sans;
+	font: 400 14px/130% $sans;
 	-webkit-font-smoothing: antialiased;	
 	display: inline;
+
+	@media (min-width: 800px) {
+		font-size: 16px;
+	}//mq800
 }
 
 .npr-ftr-logo {
 	max-width: 50px;
-	margin-right: 10px;
+	margin-right: 15px;
+	margin-bottom: 30px;
 	float: left;
+
+	@media (min-width: 500px) {
+		margin-bottom: 0px;
+	}//mq600
 }
 
 .ftr-sponsor-mod {
@@ -1228,8 +1263,12 @@ footer {
 }//social-item
 
 .social-item-img {
-	max-width: 25px;
+	max-width: 23px;
 	width: 100%;
+
+	@media (min-width: 800px) {
+		max-width: 25px;
+	}//mq800
 }
 
 .copyright {
@@ -1262,12 +1301,12 @@ footer {
 .more-interviews {
 	margin: 0 auto;
 	padding: 10px;
-	font: 400 28px/126% $sans-title;
+	font: 400 16px/126% $sans-title;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	border: 1px solid;
 	text-align: center;
-	max-width: 218px;
+	max-width: 144px;
 	background-color: #fff;
 	position: absolute;
 	margin-left: auto;
@@ -1275,8 +1314,14 @@ footer {
 	left: 0;
 	right: 0;
 	z-index: 10;
-	top: 40%;
+	top: -12%;
 	pointer-events: none;
+
+	@media (min-width: 800px) {
+		top: 40%;
+		max-width: 218px;
+		font-size: 28px;
+	}//mq800	
 }
 
 
@@ -1295,17 +1340,25 @@ footer {
 
 .end-tz-txt-mod {
 	background-color: #222;
-	padding: 20px;
+	padding: 10px;
 	z-index: 4;
 	@include trans;
 	@include opacity(1);
 	border-right: 1px solid;
 	border-color: #000;
+
+	@media (min-width: 800px) {
+		padding: 20px;
+	}//mq800
 }
 
 .end-tz-txt {
-	font: 400 25px/126% $serif;
+	font: 400 17px/126% $serif;
 	color: #fff;
+
+	@media (min-width: 800px) {
+		font-size: 25px;
+	}//mq800
 }
 
 .end-tz-txt-sub {

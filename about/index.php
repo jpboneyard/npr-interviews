@@ -24,8 +24,6 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					</div> <!-- /lead-in-txt -->
 
 					<p>Touring around the country with The NPR has been one of the greatest adventures of my life. It is through this adventure that I am able to combine my design skills, show planning background, love for community based events, enthusiasm for travel and passion for posters into one amazing experience. I am also fortunate enough to meet some of the most genuine and kindest people while on the road—most of whom share the same enthusiasm for posters. This enthusiasm is like fuel that helps keep me going while we make those eleven hour drives through crazy weather and deserted stretches of highway, hang 300 posters and host a packed show for one-night-only in each city.</p>					
-
-					<p>Touring around the country with The NPR has been one of the greatest adventures of my life. It is through this adventure that I am able to combine my design skills, show planning background, love for community based events, enthusiasm for travel and passion for posters into one amazing experience. I am also fortunate enough to meet some of the most genuine and kindest people while on the road—most of whom share the same enthusiasm for posters. This enthusiasm is like fuel that helps keep me going while we make those eleven hour drives through crazy weather and deserted stretches of highway, hang 300 posters and host a packed show for one-night-only in each city.</p>
 						
 					<div class="about-signature-mod">
 						<img src="/_img/about-signature.jpg" class="about-signature" />
@@ -35,14 +33,6 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 						</div>
 					</div> <!-- /about-signature-mod -->	
 
-					<div class="social-mod">
-						Follow The NPR
-					</div> <!-- /social-mod -->		
-					<ul class="sponsor-social-list">
-						<li class="social-item"><a href="http://instagram.com/jpboneyard" target="_blank"><img class="social-item-img" src="/_img/_icons/social-instagram.png"></li></a>	
-						<li class="social-item"><a href="https://twitter.com/thenpr" target="_blank"><img class="social-item-img" src="/_img/_icons/social-twitter.png"></li></a>	
-						<li class="social-item"><a href="http://jpboneyard.tumblr.com/" target="_blank"><img class="social-item-img" src="/_img/_icons/social-tumblr.png"></li></a>
-					</ul> <!-- /social-mod -->	
 				</div> <!-- /project-page-content -->					
 			</div> <!-- /project-page-mod -->
 

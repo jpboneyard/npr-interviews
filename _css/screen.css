@@ -372,7 +372,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   margin: 0 auto;
-  font: 400 70px/90% "alternate-gothic-no-1-d", sans-serif;
+  font: 400 68px/90% "alternate-gothic-no-1-d", sans-serif;
   max-width: 650px;
   color: #000;
   text-transform: uppercase;
@@ -477,7 +477,7 @@ h4 {
 }
 
 .section-intro-h {
-  font: 600 43px/113% "schoolbook-web", Georgia, Times, Times New Roman, serif;
+  font: 600 33px/113% "schoolbook-web", Georgia, Times, Times New Roman, serif;
   color: #000;
 }
 @media (min-width: 800px) {
@@ -521,7 +521,7 @@ li a:hover {
 }
 
 .lead-in-txt {
-  font: 800 23px/138% "schoolbook-web", Georgia, Times, Times New Roman, serif;
+  font: 800 22px/138% "schoolbook-web", Georgia, Times, Times New Roman, serif;
   color: #111;
   margin-bottom: 8px;
   -webkit-font-smoothing: antialiased;
@@ -537,7 +537,7 @@ li a:hover {
 }
 
 .interview-q {
-  font: 800 25px/162% "schoolbook-web", Georgia, Times, Times New Roman, serif;
+  font: 800 17px/162% "schoolbook-web", Georgia, Times, Times New Roman, serif;
   color: #111;
   -webkit-font-smoothing: antialiased;
   max-width: 650px;
@@ -562,7 +562,7 @@ li a:hover {
 }
 
 .block-quote-lg {
-  font: 800 25px/130% "schoolbook-web", Georgia, Times, Times New Roman, serif;
+  font: 800 24px/130% "schoolbook-web", Georgia, Times, Times New Roman, serif;
   color: #333;
   -webkit-font-smoothing: antialiased;
   max-width: 1100px;
@@ -602,7 +602,7 @@ li a:hover {
   margin-top: -20px;
   margin-bottom: 30px;
   color: #888;
-  max-width: 1200px;
+  max-width: 1100px;
 }
 
 /* ============================================= */
@@ -974,10 +974,16 @@ header {
 }
 
 .sponsor-end-img {
-  max-width: 55px;
-  margin-right: 15px;
+  max-width: 50px;
+  margin-right: 12px;
   margin-bottom: 15px;
   float: left;
+}
+@media (min-width: 800px) {
+  .sponsor-end-img {
+    max-width: 55px;
+    margin-right: 15px;
+  }
 }
 
 .sponsor-end-img-sm {
@@ -996,7 +1002,12 @@ header {
 
 .sponsor-end-txt {
   display: inline;
-  font: 400 25px/126% "alternate-gothic-no-1-d", sans-serif;
+  font: 400 23px/126% "alternate-gothic-no-1-d", sans-serif;
+}
+@media (min-width: 700px) {
+  .sponsor-end-txt {
+    font-size: 25px;
+  }
 }
 
 .sponsor-end-txt-lt {
@@ -1035,6 +1046,11 @@ header {
   width: 33%;
 }
 
+.img-grid-3-mod {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 .img-grid-3 {
   margin-left: -3%;
   *zoom: 1;
@@ -1063,7 +1079,7 @@ header {
 }
 
 .img-grid-3-sm-mod {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -1095,7 +1111,7 @@ header {
 }
 
 .img-grid-2-mod {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -1304,7 +1320,7 @@ header {
 }
 .project-page-content p {
   margin: 0 auto;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
   color: #222;
   font: 400 17px/162% "schoolbook-web", Georgia, Times, Times New Roman, serif;
   max-width: 650px;
@@ -1313,6 +1329,7 @@ header {
   .project-page-content p {
     font-size: 21px;
     line-height: 162%;
+    margin-bottom: 35px;
   }
 }
 .project-page-content p:last-child {
@@ -1349,7 +1366,7 @@ header {
 }
 
 .img-med {
-  max-width: 1200px;
+  max-width: 1100px;
   display: block;
   margin: 0 auto;
   width: 100%;
@@ -1464,7 +1481,7 @@ header {
   border-color: #E2E3E4;
   color: #666;
 }
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   .previous-tab {
     display: block;
   }
@@ -1506,7 +1523,7 @@ header {
   border-color: #E2E3E4;
   color: #666;
 }
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   .next-tab {
     display: block;
   }
@@ -1561,11 +1578,12 @@ footer {
   color: #fff;
   padding: 35px;
   height: 500px;
+  z-index: 10;
 }
 @media (min-width: 1100px) {
   footer {
     height: 350px;
-    padding: 70px;
+    padding: 85px;
   }
 }
 
@@ -1582,7 +1600,7 @@ footer {
 
 .ftr-link-item {
   display: inline;
-  font: 400 24px/126% "alternate-gothic-no-1-d", sans-serif;
+  font: 400 21px/126% "alternate-gothic-no-1-d", sans-serif;
   -webkit-font-smoothing: antialiased;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1590,6 +1608,11 @@ footer {
 }
 .ftr-link-item a {
   color: #fff;
+}
+@media (min-width: 800px) {
+  .ftr-link-item {
+    font-size: 24px;
+  }
 }
 
 .ftr-info-mod {
@@ -1613,19 +1636,37 @@ footer {
 }
 
 .ftr-blurb-mod {
-  padding: 20px 30px 0px 0px;
+  padding: 20px 30px 20px 0px;
+  border-bottom: 1px solid;
+}
+@media (min-width: 1000px) {
+  .ftr-blurb-mod {
+    border-bottom: 0px;
+    padding-bottom: 0px;
+  }
 }
 
 .ftr-blurb {
-  font: 400 16px/130% "nimbus-sans", Arial, Helvetica, Verdana, sans-serif;
+  font: 400 14px/130% "nimbus-sans", Arial, Helvetica, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   display: inline;
+}
+@media (min-width: 800px) {
+  .ftr-blurb {
+    font-size: 16px;
+  }
 }
 
 .npr-ftr-logo {
   max-width: 50px;
-  margin-right: 10px;
+  margin-right: 15px;
+  margin-bottom: 30px;
   float: left;
+}
+@media (min-width: 500px) {
+  .npr-ftr-logo {
+    margin-bottom: 0px;
+  }
 }
 
 .ftr-sponsor-mod {
@@ -1712,8 +1753,13 @@ footer {
 }
 
 .social-item-img {
-  max-width: 25px;
+  max-width: 23px;
   width: 100%;
+}
+@media (min-width: 800px) {
+  .social-item-img {
+    max-width: 25px;
+  }
 }
 
 .copyright {
@@ -1759,12 +1805,12 @@ footer {
 .more-interviews {
   margin: 0 auto;
   padding: 10px;
-  font: 400 28px/126% "alternate-gothic-no-1-d", sans-serif;
+  font: 400 16px/126% "alternate-gothic-no-1-d", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   border: 1px solid;
   text-align: center;
-  max-width: 218px;
+  max-width: 144px;
   background-color: #fff;
   position: absolute;
   margin-left: auto;
@@ -1772,8 +1818,15 @@ footer {
   left: 0;
   right: 0;
   z-index: 10;
-  top: 40%;
+  top: -12%;
   pointer-events: none;
+}
+@media (min-width: 800px) {
+  .more-interviews {
+    top: 40%;
+    max-width: 218px;
+    font-size: 28px;
+  }
 }
 
 .end-tz-img {
@@ -1791,7 +1844,7 @@ footer {
 
 .end-tz-txt-mod {
   background-color: #222;
-  padding: 20px;
+  padding: 10px;
   z-index: 4;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
@@ -1802,10 +1855,20 @@ footer {
   border-right: 1px solid;
   border-color: #000;
 }
+@media (min-width: 800px) {
+  .end-tz-txt-mod {
+    padding: 20px;
+  }
+}
 
 .end-tz-txt {
-  font: 400 25px/126% "schoolbook-web", Georgia, Times, Times New Roman, serif;
+  font: 400 17px/126% "schoolbook-web", Georgia, Times, Times New Roman, serif;
   color: #fff;
+}
+@media (min-width: 800px) {
+  .end-tz-txt {
+    font-size: 25px;
+  }
 }
 
 .end-tz-txt-sub {

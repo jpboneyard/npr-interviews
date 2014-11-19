@@ -12,7 +12,7 @@
 
 			<div class="ftr-blurb-mod">
 				<a href="http://www.nprshow.com" target="_blank"><img class="npr-ftr-logo" src="/_img/npr-ftr-logo.png" /></a>
-				<h6 class="ftr-blurb">The NPR Interview Series is brought to you by The National Poster Retrospecticus. The NPR is a traveling poster show based out of Austin, Texas.
+				<h6 class="ftr-blurb">The NPR Bitchin' Interview Series is brought to you by The National Poster Retrospecticus. The NPR is a traveling poster show based out of Austin, Texas.
 				</h6>
 			</div> <!-- /ftr-blurb-mod -->
 
