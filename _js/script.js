@@ -4,8 +4,14 @@ var windowWidth = $(window).width();
 
 
 //randomize which ad is loaded on the site
-var images = ['big-box-ad-2.gif', 'big-box-ad-3.gif', 'big-box-ad.gif'];
-$('<img src="/_img/_ads/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('.sponsored-content-img');
+var imageObjects = [
+    {"img": "big-box-ad-2.gif", "link":"http://google.com"}, 
+    {"img": "big-box-ad-3.gif", "link":"http://amazon.com"},
+    {"img": "big-box-ad.gif", "link":"http://espn.com"}
+];
+
+var imgObject =  imageObjects[Math.floor(Math.random() * imageObjects.length)]
+$('<a href="' + imgObject.link + '"><img src="/_img/_ads/' + imgObject.img + '"></a>').appendTo('.sponsored-content-img');
 
 
 //Mobile nav toggling action-action-action
