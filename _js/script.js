@@ -7,7 +7,7 @@ var windowWidth = $(window).width();
 var imageObjects = [
     {"img": "big-box-ad-2.gif", "link":"http://google.com"}, 
     {"img": "big-box-ad-3.gif", "link":"http://amazon.com"},
-    {"img": "big-box-ad.gif", "link":"http://espn.com"}
+    {"img": "big-box-ad.gif", "link":"http://jakprints.com"}
 ];
 
 var imgObject =  imageObjects[Math.floor(Math.random() * imageObjects.length)]
@@ -15,20 +15,20 @@ $('<a href="' + imgObject.link + '" target="_blank"><img src="/_img/_ads/' + img
 
 
 //Mobile nav toggling action-action-action
-	$(".m-nav-toggle").click(function(){
-		console.log("clicked");
-			$(".nav-link-mod").toggleClass("visible");
-	});
+$(".m-nav-toggle").click(function(){
+	console.log("clicked");
+	$(".nav-link-mod").toggleClass("visible");
+});
 
-    $(window).bind("resize",function(){
-        windowWidth = $(this).width();
-        if (windowWidth <760){
-        $(".nav-link-mod").removeClass('hidden')
-        }
-        else{
-        $(".nav-link-mod").removeClass('visible')
-        }
-    })
+$(window).bind("resize",function(){
+    windowWidth = $(this).width();
+    if (windowWidth <760){
+    $(".nav-link-mod").removeClass('hidden')
+    }
+    else{
+    $(".nav-link-mod").removeClass('visible')
+    }
+})
 
 
 // grab an element

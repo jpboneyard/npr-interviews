@@ -5,8 +5,8 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 <?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/header.php"); ?>
 
 		<div id="main" role="main">
-			<div class="feat-project-mod" id="top">
-				<img class="feat-project-img fade-me" src="/_img/topper-draplin.jpg" alt="National Poster Retrospecticus Topper" />
+			<div class="feat-project-mod-article" id="top">
+				<img class="feat-project-img-article fade-me" src="/_img/topper-draplin.jpg" alt="National Poster Retrospecticus Topper" />
 			</div> <!-- /feat-project-mod -->
 
 			<div class="project-page-mod">
@@ -16,12 +16,12 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<caption>Photo Langdon Alger</caption>
 				</div> <!-- /intro-photo-credit -->
 
-					<div class="intro-mod">
+					<div class="intro-mod-article">
 						<div class="intro-content">
 							<h1 class="interview-name">Aaron James Draplin</h1>
 							<span class="sponsor-line">Interview Presented by</span> <span class="sponsor-line sponsor-line-b"><a href="http://www.frenchpaper.com/" target="_blank" />French Paper Co.</a></span>
 						</div> <!-- /intro-content -->
-					</div> <!-- /intro-mod -->
+					</div> <!-- /intro-mod-article -->
 
 					<!-- Share-Tools -->
 					<?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/share-tools.php"); ?>
@@ -41,13 +41,6 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 						<div class="sponsored-content-img"> </div>
 						<div class="sponsored-credit">Sponsored Content</div>
 					</div> <!-- /sponsored-content-mod -->
-					
-
-					<h4 class="interview-q">
-						Congue lacinia feugiat eu quisque enim enim, vestibulum a vitae adipiscing mi, hendrerit feugiat pellentesque?
-					</h4> <!-- /interview-q -->	
-
-					<p>Nec repellat enim. Volutpat mi vivamus a. Mauris vestibulum et sit aliquet nullam, gravida justo sit, nullam volutpat non, erat sit senectus. Ad felis nullam montes, ut quis, et nunc ut lorem bibendum cras nisl. Primis nunc eget donec velit nunc libero, pharetra senectus sed eget nibh tellus egestas, fugiat ridiculus mauris tellus eu, eu non. Dictum et aliquam magna, a sit dui ut, in vehicula consequat blandit. Congue auctor ligula ac massa, diam id risus adipiscing porttitor. Malesuada lacus et, justo nibh lobortis porttitor, lacus class metus pellentesque aenean eu, vitae nullam etiam ligula quis, venenatis pharetra nunc urna quam ipsum. Nisl sapien. Ac auctor sed tempus vitae lorem. Vitae turpis amet, ullamcorper ante sapien. A posuere, quis ultricies tempor tortor aliquet luctus ullamcorper, molestie libero sed nulla in, sodales vitae ultricies.</p>
 
 					<img class="img-med" src="/_img/img-full-4.jpg" />
 					<div class="img-caption"> Draplin States and Cities Tour Posters </div> 

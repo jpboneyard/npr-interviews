@@ -12,5 +12,5 @@
 			<li class="nav-link-item"><a href="/about">About</a></li>
 			<li class="nav-link-item"><a href="/support">Support</a></li>
 		</ul> 
-		</nav>		
+	</nav>		
 </header>
