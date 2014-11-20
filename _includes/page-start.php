@@ -38,7 +38,7 @@
 
   <!-- Share Tools -->
   <script type="text/javascript">var switchTo5x=true;</script>
-  <!-- <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script> -->
+  <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
   <script type="text/javascript">stLight.options({publisher: "aa0bac83-6513-48ea-b6ae-69c81d42f59e", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 
 </head>

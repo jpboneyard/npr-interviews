@@ -139,9 +139,16 @@ h4 {
 	font: 600 33px/113% $serif;
 	color: #000;
 
+	@media (min-width: 500px) {
+		font-size: 50px;
+		line-height: 100%;
+		margin-bottom: 10px;
+	}//mq800
+
 	@media (min-width: 800px) {
 		font-size: 60px;
-		line-height: 170%;
+		line-height: 150%;
+		margin-bottom: 0px;
 	}//mq800
 }//section-intro-h
 
@@ -197,7 +204,7 @@ li {
 	text-transform: none;
 	letter-spacing: 0px;
 
-	@media (min-width: 800px) {
+	@media (min-width: 500px) {
 		font-size: 21px;
 	}//mq800
 }
@@ -216,7 +223,7 @@ li {
 	font: 800 24px/130% $serif;
 	color: #333;
 	-webkit-font-smoothing: antialiased;
-	max-width: 1100px;
+	max-width: $med-width;
 	margin: 0 auto;
 	margin-bottom: 45px;
 	margin-top: 10px;
@@ -227,6 +234,10 @@ li {
 		font-size: 38px;
 		line-height: 132%;
 	}//mq800
+
+	@media (min-width: 1400px) {
+		max-width: $lg-width;
+	}//mq1400
 }
 
 .intro-photo-credit {
@@ -252,6 +263,10 @@ li {
 	margin-bottom: 30px;
 	color: #888;
 	max-width: $med-width;	
+
+	@media (min-width: 1400px) {
+		max-width: $lg-width;
+	}//mq1400
 }
 
 /* ============================================= */
@@ -360,7 +375,7 @@ header {
 
 	a {
 		&:hover { 
-			color: $site-green;
+			color: $site-orange;
 			@include trans;
 			background-color: #ddd;
 
@@ -664,6 +679,10 @@ header {
 .img-grid-3-mod {
 	max-width: $med-width;
 	margin: 0 auto;
+
+	@media (min-width: 1400px) {
+		max-width: $lg-width;
+	}//mq1400
 }
 
 .img-grid-3 {
@@ -680,6 +699,10 @@ header {
 .img-grid-3-sm-mod {
 	max-width: $med-width;
 	margin: 0 auto;
+
+	@media (min-width: 1400px) {
+		max-width: $lg-width;
+	}//mq1400
 }
 
 .img-grid-3-sm {
@@ -696,6 +719,10 @@ header {
 .img-grid-2-mod {
 	max-width: $med-width;
 	margin: 0 auto;
+
+	@media (min-width: 1400px) {
+		max-width: $lg-width;
+	}//mq1400
 }
 
 .img-grid-2 {
@@ -709,7 +736,7 @@ header {
 	}
 }
 
-.section-intro-stuff {
+.section-intro-top {
 	margin: 0 auto;
 	max-width: 760px;
 	padding: 25px 36px 0px 36px;
@@ -717,6 +744,10 @@ header {
 	margin-top: -60px;
 	position: relative;
 	text-align: center;
+
+	@media (min-width: 650px) {
+		padding-top: 25px;
+	}//mq800
 
 	@media (min-width: 800px) {
 		margin-top: -130px;
@@ -910,6 +941,11 @@ header {
 	margin: 0 auto;
 	width: 100%;
 	margin-bottom: 30px;
+
+
+	@media (min-width: 1400px) {
+		max-width: $lg-width;
+	}//mq1400
 }
 
 .img-full {
@@ -1107,7 +1143,7 @@ header {
 footer {
 	background-color: #000;
 	position: relative;
-	color: #fff;
+	color: #eee;
 	padding: 35px;
 	height: 500px;
 	z-index: 10;
@@ -1125,7 +1161,7 @@ footer {
 
 .ftr-link-list {
 	border-bottom: 1px solid;
-	border-color: #fff;
+	border-color: #999;
 	padding-bottom: 20px;
 }
 
@@ -1138,7 +1174,7 @@ footer {
 	margin-right: 20px;
 
 	a {
-		color: #fff;
+		color: #eee;
 	}
 
 	@media (min-width: 800px) {
@@ -1153,16 +1189,20 @@ footer {
 	display: inline;
 	@include pie-clearfix;
 	border-right: 0px solid;
+	border-color: #999;
 	padding: 15px 0px;
 
 	@media (min-width: 1100px) {
 		border-right: 1px solid;
+		border-color: #999;
 	}//mq
 }
 
 .ftr-blurb-mod {
 	padding: 20px 30px 20px 0px;
 	border-bottom: 1px solid;
+	border-color: #999;
+	color: #eee;
 
 	@media (min-width: 1000px) {
 		border-bottom: 0px;
@@ -1267,7 +1307,7 @@ footer {
 	width: 100%;
 
 	@media (min-width: 800px) {
-		max-width: 25px;
+		max-width: 23px;
 	}//mq800
 }
 

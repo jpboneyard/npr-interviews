@@ -11,7 +11,7 @@ var imageObjects = [
 ];
 
 var imgObject =  imageObjects[Math.floor(Math.random() * imageObjects.length)]
-$('<a href="' + imgObject.link + '"><img src="/_img/_ads/' + imgObject.img + '"></a>').appendTo('.sponsored-content-img');
+$('<a href="' + imgObject.link + '" target="_blank"><img src="/_img/_ads/' + imgObject.img + '"></a>').appendTo('.sponsored-content-img');
 
 
 //Mobile nav toggling action-action-action

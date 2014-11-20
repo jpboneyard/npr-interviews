@@ -105,7 +105,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<img class="img-full" src="/_img/img-full.jpg" />
 
-					<div class="section-intro-stuff">
+					<div class="section-intro-top">
 						<h2 class="section-intro-h">Behind the Process</h2>
 					</div>	
 
