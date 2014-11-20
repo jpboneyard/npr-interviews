@@ -2,6 +2,55 @@ $(document).ready(function() {
 
 var windowWidth = $(window).width();
 
+//interview items
+var interviewObjects = [
+    {
+        "index": "8",
+         "link": "/interview/hatch-show-print",
+         "name": "Hatch Show Print"
+     }, 
+    {
+        "index": "9",
+         "link": "/interview/aaron-draplin",
+         "name": "Dan McCarthy"
+     },
+     {
+        "index": "10",
+         "link": "/interview/Laura-Baisden",
+         "name": "Laura Baisden"
+     }
+];
+
+for (var i = interviewObjects.length - 1; i >= 0; i--) {
+    var page = interviewObjects[i];
+    if(window.location.href.indexOf(page.link) >= 0){
+
+        if(i - 1 >= 0){
+            var previousPage = interviewObjects[i-1];
+            $('<a href="' + previousPage.link + '">No. ' + previousPage.index  + ' | '  +  previousPage.name + ' <span class="tab-arrow left-arrow">&#8592;</span></a>').appendTo('.previous-tab')
+        }else{
+            $('.previous-tab').hide()
+        }
+
+        if(i + 1 < interviewObjects.length){
+            var nextPage = interviewObjects[i+1];
+            $('<a href="' + nextPage.link +'"><span class="tab-arrow">&#8594;</span>  '  +  nextPage.name +  ' | No. '  +  nextPage.index +'  </a>').appendTo('.next-tab')
+        }else{
+            $('.next-tab').hide()
+        }
+
+        return;
+    }
+};
+
+
+/*<div class="previous-tab"> 
+    <a href="/interview/hatch-show-print">No. 8 | Hatch Show Print <span class="tab-arrow left-arrow">&#8592;</span></a>
+</div> <!-- /previous-tab -->
+
+<div class="next-tab">
+    <a href="/interview/aaron-draplin"><span class="tab-arrow">&#8594;</span> Dan McCarthy | No. 10 </a>
+</div> <!-- /next-tab -->*/
 
 //randomize which ad is loaded on the site
 var imageObjects = [
