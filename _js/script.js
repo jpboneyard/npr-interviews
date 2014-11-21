@@ -96,10 +96,17 @@ var str = $( ".interview-name" ).text();
 $( ".social-name" ).html( str );
 
 
+//Add Class to Tabs on Scroll to Show Tabs
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
 
-
-
-
+    if (scroll >= 0) {
+        $(".tab").addClass("tab-fade").removeClass("tab-start");
+        $(".scroll-arrow-mod").addClass("arrow-fade").removeClass("arrow-start");
+    } else {
+        $(".tab").removeClass("tab-fade");
+    }
+});
 
 
 
