@@ -396,7 +396,7 @@ h3 {
 }
 @media (min-width: 500px) {
   h3 {
-    font: 700 24px/140% "alternate-gothic-no-1-d", sans-serif;
+    font-size: 24px;
   }
 }
 

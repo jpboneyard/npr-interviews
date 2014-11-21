@@ -5,17 +5,17 @@ var windowWidth = $(window).width();
 //interview items
 var interviewObjects = [
     {
-        "index": "8",
+        "index": "1",
          "link": "/interview/hatch-show-print",
          "name": "Hatch Show Print"
      }, 
     {
-        "index": "9",
+        "index": "2",
          "link": "/interview/aaron-draplin",
          "name": "Dan McCarthy"
      },
      {
-        "index": "10",
+        "index": "3",
          "link": "/interview/Laura-Baisden",
          "name": "Laura Baisden"
      }
@@ -38,19 +38,9 @@ for (var i = interviewObjects.length - 1; i >= 0; i--) {
         }else{
             $('.next-tab').hide()
         }
-
-        return;
     }
 };
 
-
-/*<div class="previous-tab"> 
-    <a href="/interview/hatch-show-print">No. 8 | Hatch Show Print <span class="tab-arrow left-arrow">&#8592;</span></a>
-</div> <!-- /previous-tab -->
-
-<div class="next-tab">
-    <a href="/interview/aaron-draplin"><span class="tab-arrow">&#8594;</span> Dan McCarthy | No. 10 </a>
-</div> <!-- /next-tab -->*/
 
 //randomize which ad is loaded on the site
 var imageObjects = [

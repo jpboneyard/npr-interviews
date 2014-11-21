@@ -59,7 +59,7 @@ h3 {
 	letter-spacing: 1px;
 
 	@media (min-width: 500px) {
-		font: 700 24px/140% $sans-title;
+		font-size: 24px;
 	}//mq
 
 }
@@ -143,7 +143,7 @@ h4 {
 		font-size: 50px;
 		line-height: 100%;
 		margin-bottom: 10px;
-	}//mq800
+	}//mq500
 
 	@media (min-width: 800px) {
 		font-size: 60px;
@@ -206,7 +206,7 @@ li {
 
 	@media (min-width: 500px) {
 		font-size: 21px;
-	}//mq800
+	}//mq500
 }
 
 .site-list {
@@ -291,12 +291,12 @@ header {
 
 	@media (min-width: 760px) {
 		@include opacity (0.9);
-	}
+	}//mq760
 
 	@media (min-width: 900px) {
 		padding: 22px 72px;
 
-	}//mq
+	}//mq900
 }
 
 .headroom {
@@ -328,7 +328,7 @@ header {
 	@media (min-width: 760px) {
 		padding: 22px px;
 		z-index: 2;
-	}
+	}//mq760
 }
 
 .nav-logo-mod {
@@ -338,7 +338,7 @@ header {
 	@media (min-width: 760px) {
 		padding-top: 0px;
 		padding-left: 52px;
-	}
+	}//mq760
 
 	img {
 		max-width: 115px;
@@ -346,7 +346,7 @@ header {
 
 		@media (min-width: 760px) {
 			max-width: 115px;
-		}//mq
+		}//mq760
 	}//img
 }
 
@@ -365,7 +365,7 @@ header {
 	@media (min-width: 760px) {
 		padding-top: 3px;
 		margin-top: 0px;
-	}
+	}//mq760
 }
 
 .nav-link-item {
@@ -379,7 +379,7 @@ header {
 
 	@media (min-width: 760px) {
 		padding: 0px;
-	}
+	}//mq760
 
 	a {
 		&:hover { 
@@ -396,7 +396,7 @@ header {
 	&:last-child {
 		margin-right: 0px;
 	}
-}
+}//nav-link-item
 
 
 /***  Mobile-Nav  ***/ 
@@ -413,7 +413,7 @@ header {
 
 	@media (min-width: 760px) {
 		display: none;
-	}//mq
+	}//mq760
 }
 
 .visible {
@@ -443,7 +443,7 @@ header {
 			padding: 30px 0px 30px 10px;
 		}//a
 	}//nav-link-item
-}
+}//visble
 
 
 #access {
@@ -455,7 +455,7 @@ header {
 	@media (min-width: 760px) and (max-width: 900px) {
 			padding: 20px 20px 0px 0px;
 
-	}
+	}//mq
 
 	@media (min-width: 760px) {
 		float: right;
@@ -780,7 +780,7 @@ header {
 		margin-top: -130px;
 		padding-top: 36px;
 	}//mq800
-}
+}//section-intro-top
 
 .end-graph-mod {
 	position: relative;
@@ -806,7 +806,7 @@ header {
 		max-width: 175px;
 		display: block;
 	}//mq800
-}
+}//interview-credits
 
 .inter-credits-item {
 	margin-bottom: 10px;
@@ -913,11 +913,11 @@ header {
 
 	@media (min-width: 450px) {
 		padding: 45px 25px;
-	}
+	}//mq
 
 	@media (min-width: 960px) {
 		padding: 52px 52px;
-	}
+	}//mq
 
 	p {
 		margin: 0 auto;
@@ -983,7 +983,7 @@ header {
 	@media (min-width: 600px) {
 		width: 110%;
 		margin-left: -5%;
-	}
+	}//mq
 }
 
 .img-first {
@@ -1011,7 +1011,7 @@ header {
 
 	@media (min-width: 700px) {
 		margin-top: 60px;
-	}
+	}//mq
 }
 
 .site-width-img {
@@ -1044,7 +1044,7 @@ header {
 	@media (min-width: 1025px) {
 		display: none;
 		width: 200%;
-	}
+	}//mq
 }
 
 
