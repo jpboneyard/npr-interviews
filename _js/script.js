@@ -100,7 +100,7 @@ $( ".social-name" ).html( str );
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 0) {
+    if (scroll >= 1) {
         $(".tab").addClass("tab-fade").removeClass("tab-start");
         $(".scroll-arrow-mod").addClass("arrow-fade").removeClass("arrow-start");
     } else {
