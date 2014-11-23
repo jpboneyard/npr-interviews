@@ -5,12 +5,12 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 <?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/header.php"); ?>
 
 	<div id="main" role="main">
-		<div class="feat-project-mod" id="top">
-			<img class="feat-project-img" src="/_img/topper-support.jpg" alt="National Poster Retrospecticus Topper" />
+		<div class="interview-mod" id="top">
+			<img class="interview-img" src="/_img/topper-support.jpg" alt="National Poster Retrospecticus Topper" />
 		</div> <!-- /feat-project-mod -->
 
-		<div class="project-page-mod">
-			<div class="project-page-content">
+		<div class="interview-page-mod">
+			<div class="interview-page-content">
 
 				<div class="intro-mod">
 					<div class="intro-content">
@@ -26,8 +26,8 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 				<p>Every show we put on, each interview we produce is done so simply with the hopes of breaking even. With your support we can sustain these efforts to travel more, travel further and produce as many interviews as possible throughout the year! Every show we put on, each interview we produce is done so simply with the hopes of breaking even. With your support we can sustain these efforts to travel more, travel further and produce as many interviews as possible throughout the year!</p>		
 
 				<btn class="btn-submit btn-txt"> <a href="http://www.nationalposterretrospecticus.com" target="_blank">Support The NPR</a></btn>
-			</div> <!-- /project-page-content -->					
-		</div> <!-- /project-page-mod -->
+			</div> <!-- /interview-page-content -->					
+		</div> <!-- /interview-page-mod -->
 
 <!-- footer -->
 <?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/footer.php"); ?>

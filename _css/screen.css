@@ -1269,9 +1269,9 @@ header {
 }
 
 /* ============================================= */
-/*	Featured Project							 */
+/*	Interview 									 */
 /* ============================================= */
-.feat-mod-cover {
+.interview-mod-cover {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1283,21 +1283,21 @@ header {
   position: fixed;
   *zoom: 1;
 }
-.feat-mod-cover:after {
+.interview-mod-cover:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.feat-project-mod img {
+.interview-mod img {
   width: 100%;
 }
 
-.feat-project-img {
+.interview-img {
   width: 100%;
 }
 
-.feat-project-mod-article {
+.interview-mod-article {
   *zoom: 1;
   position: relative;
   height: 0;
@@ -1307,70 +1307,70 @@ header {
   padding-top: 65px;
   background-color: #181818;
 }
-.feat-project-mod-article:after {
+.interview-mod-article:after {
   content: "";
   display: table;
   clear: both;
 }
 @media (min-width: 400px) and (max-height: 1200px) {
-  .feat-project-mod-article {
+  .interview-mod-article {
     padding-bottom: 65%;
   }
 }
 @media (min-width: 800px) and (max-height: 1400px) {
-  .feat-project-mod-article {
+  .interview-mod-article {
     padding-bottom: 65%;
   }
 }
 @media (min-width: 1200px) and (max-height: 1100px) {
-  .feat-project-mod-article {
+  .interview-mod-article {
     padding-bottom: 65%;
   }
 }
 @media (min-width: 1400px) and (max-height: 1300px) {
-  .feat-project-mod-article {
+  .interview-mod-article {
     padding-bottom: 58%;
   }
 }
 @media (min-width: 1400px) and (max-height: 1400px) {
-  .feat-project-mod-article {
+  .interview-mod-article {
     padding-bottom: 62.5%;
   }
 }
 @media (min-width: 1500px) and (max-height: 1400px) {
-  .feat-project-mod-article {
+  .interview-mod-article {
     padding-bottom: 52%;
   }
 }
 @media (min-width: 1900px) and (max-height: 1400px) {
-  .feat-project-mod-article {
+  .interview-mod-article {
     padding-bottom: 50%;
   }
 }
 @media (min-width: 2000px) and (max-height: 1400px) {
-  .feat-project-mod-article {
+  .interview-mod-article {
     padding-bottom: 55%;
   }
 }
 @media (min-width: 2200px) and (max-height: 1400px) {
-  .feat-project-mod-article {
+  .interview-mod-article {
     padding-bottom: 55%;
   }
 }
 @media (min-width: 2300px) and (max-height: 1400px) {
-  .feat-project-mod-article {
+  .interview-mod-article {
     padding-bottom: 50%;
   }
 }
-.feat-project-mod-article img {
+.interview-mod-article img {
   width: 100%;
 }
 
-.feat-project-img-article {
+.interview-img-article {
   width: 110%;
 }
 @media (min-width: 800px) {
-  .feat-project-img-article {
+  .interview-img-article {
     position: fixed;
     top: 0px;
     right: 0;
@@ -1466,36 +1466,36 @@ header {
 /* ============================================= */
 /*	Project	Page								 */
 /* ============================================= */
-.project-page-mod {
+.interview-page-mod {
   background-color: #fff;
   z-index: 2;
   position: relative;
   display: block;
   *zoom: 1;
 }
-.project-page-mod:after {
+.interview-page-mod:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.project-page-content {
+.interview-page-content {
   background-color: #fff;
   padding: 30px 15px;
   margin: 0 auto;
   display: block;
 }
 @media (min-width: 450px) {
-  .project-page-content {
+  .interview-page-content {
     padding: 45px 25px;
   }
 }
 @media (min-width: 960px) {
-  .project-page-content {
+  .interview-page-content {
     padding: 52px 52px;
   }
 }
-.project-page-content p {
+.interview-page-content p {
   margin: 0 auto;
   margin-bottom: 25px;
   color: #222;
@@ -1503,16 +1503,16 @@ header {
   max-width: 675px;
 }
 @media (min-width: 500px) {
-  .project-page-content p {
+  .interview-page-content p {
     font-size: 22px;
     line-height: 162%;
     margin-bottom: 35px;
   }
 }
-.project-page-content p:last-child {
+.interview-page-content p:last-child {
   margin-bottom: 0px;
 }
-.project-page-content p:first-child {
+.interview-page-content p:first-child {
   margin-bottom: 22px;
 }
 

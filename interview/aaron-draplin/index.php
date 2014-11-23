@@ -5,18 +5,18 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 <?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/header.php"); ?>
 
 		<div id="main" role="main">
-			<div class="feat-project-mod-article" id="top">
-				<img class="feat-project-img-article fade-me" src="/_img/topper-draplin-2.jpg" alt="National Poster Retrospecticus Topper" />
+			<div class="interview-mod-article" id="top">
+				<img class="interview-img-article fade-me" src="/_img/topper-draplin-2.jpg" alt="National Poster Retrospecticus Topper" />
 				<div class="scroll-arrow-mod arrow-start">
 					<div class="bounce">
 						<div class="scroll-txt">Scroll</div>
 						<img class="scroll-arrow" src="/_img/arrow.png" />
 					</div><!-- /bounce-mod -->
 				</div><!-- /scroll-arrow-mod-->
-			</div> <!-- /feat-project-mod -->
+			</div> <!-- /interview-mod-article -->
 
-			<div class="project-page-mod">
-				<div class="project-page-content">
+			<div class="interview-page-mod">
+				<div class="interview-page-content">
 
 					<div class="intro-mod-article">
 						<div class="intro-content">
@@ -191,8 +191,8 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 						<li class="social-item"><a href="http://jpboneyard.tumblr.com/" target="_blank"><img class="social-item-img" src="/_img/_icons/social-tumblr.png"></li></a>
 					</ul> <!-- /social-mod -->	
 
-				</div> <!-- /project-page-content -->					
-			</div> <!-- /project-page-mod -->
+				</div> <!-- /interview-page-content -->					
+			</div> <!-- /interview-page-mod -->
 
 
 		<!-- Article-End -->

@@ -828,10 +828,10 @@ header {
 
 
 /* ============================================= */
-/*	Featured Project							 */ 
+/*	Interview 									 */ 
 /* ============================================= */
 
-.feat-mod-cover {
+.interview-mod-cover {
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -844,18 +844,18 @@ header {
 	@include pie-clearfix;
 }
 
-.feat-project-mod {
+.interview-mod {
 
 	img {
 		width: 100%;
 	}
 }
 
-.feat-project-img {
+.interview-img {
 	width: 100%;
 }
 
-.feat-project-mod-article {
+.interview-mod-article {
 	@include pie-clearfix;
 	position: relative;
 	height: 0;
@@ -910,7 +910,7 @@ header {
 	}
 }
 
-.feat-project-img-article {
+.interview-img-article {
 	width: 110%;
 
 	@media (min-width: 800px) {
@@ -984,7 +984,7 @@ header {
 /*	Project	Page								 */ 
 /* ============================================= */
 
-.project-page-mod{
+.interview-page-mod{
 	background-color: #fff;
 	z-index: 2;
 	position: relative;
@@ -992,7 +992,7 @@ header {
 	@include pie-clearfix;
 }
 
-.project-page-content {
+.interview-page-content {
 	background-color: #fff;
 	padding: 30px 15px;
 	margin: 0 auto;

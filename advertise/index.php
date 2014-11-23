@@ -5,12 +5,12 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 <?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/header.php"); ?>
 
 	<div id="main" role="main">
-		<div class="feat-project-mod" id="top">
-			<img class="feat-project-img" src="/_img/topper-advertise.jpg" alt="National Poster Retrospecticus Topper" />
+		<div class="interview-mod" id="top">
+			<img class="interview-img" src="/_img/topper-advertise.jpg" alt="National Poster Retrospecticus Topper" />
 		</div> <!-- /feat-project-mod -->
 
-		<div class="project-page-mod">
-			<div class="project-page-content">
+		<div class="interview-page-mod">
+			<div class="interview-page-content">
 				<div class="intro-mod">
 					<div class="intro-content">
 						<div class="overline">Because Monthly Ads are Primo</div>
@@ -29,8 +29,8 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 				<p>We also feature rotating advertisements across our site. You have a 300px x 250px canvas to go nuts with. You'll be in rotation in each story stream and across the site.</p>
 
 				<btn class="btn-submit btn-txt"> <a href="mailto:jpboneyard@gmail.com" target="_blank">Inquire Today!</a></btn>
-			</div> <!-- /project-page-content -->					
-		</div> <!-- /project-page-mod -->
+			</div> <!-- /interview-page-content -->					
+		</div> <!-- /interview-page-mod -->
 
 <!-- footer -->
 <?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/footer.php"); ?>
