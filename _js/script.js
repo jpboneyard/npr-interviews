@@ -6,18 +6,28 @@ var windowWidth = $(window).width();
 var interviewObjects = [
     {
         "index": "1",
-         "link": "/interview/hatch-show-print",
-         "name": "Hatch Show Print"
+         "link": "/interview/two-arms-inc",
+         "name": "Two Arms Inc."
      }, 
     {
         "index": "2",
          "link": "/interview/aaron-draplin",
-         "name": "Dan McCarthy"
+         "name": "Aaron Draplin"
      },
      {
         "index": "3",
-         "link": "/interview/Laura-Baisden",
+         "link": "/interview/jp-boneyard",
+         "name": "JP Boneyard"
+     },
+    {
+        "index": "4",
+         "link": "/interview/laura-baisden",
          "name": "Laura Baisden"
+     },
+    {
+        "index": "5",
+         "link": "/interview/daniel-danger",
+         "name": "Daniel Danger"
      }
 ];
 

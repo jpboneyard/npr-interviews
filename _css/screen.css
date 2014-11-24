@@ -381,7 +381,7 @@ h1 {
 }
 @media (min-width: 500px) {
   h1 {
-    font-size: 100px;
+    font-size: 115px;
   }
 }
 
@@ -626,9 +626,14 @@ li a:hover {
   font: 400 12px/140% "nimbus-sans", Arial, Helvetica, Verdana, sans-serif;
   margin: 0 auto;
   margin-top: -20px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   color: #888;
   max-width: 800px;
+}
+@media (min-width: 800px) {
+  .img-caption {
+    margin-bottom: 35px;
+  }
 }
 @media (min-width: 1150px) {
   .img-caption {
