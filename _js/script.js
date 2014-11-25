@@ -59,9 +59,19 @@ var imageObjects = [
     {"img": "big-box-ad.gif", "link":"http://jakprints.com"}
 ];
 
-var imgObject =  imageObjects[Math.floor(Math.random() * imageObjects.length)]
-$('<a href="' + imgObject.link + '" target="_blank"><img src="/_img/_ads/' + imgObject.img + '"></a>').appendTo('.sponsored-content-img');
+$('.sponsored-content-img').each(function(index){
+    
+    if(imageObjects.length > 0){
 
+        var imgObject =  imageObjects[Math.floor(Math.random() * imageObjects.length)];
+
+        $('<a href="' + imgObject.link + '" target="_blank"><img src="/_img/_ads/' + imgObject.img + '"></a>').appendTo(this);
+
+        imageObjects = $.grep(imageObjects, function(value) {
+            return value != imgObject;
+        });
+    }
+});
 
 //Mobile nav toggling action-action-action
 $(".m-nav-toggle").click(function(){
