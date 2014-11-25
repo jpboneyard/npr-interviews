@@ -21,7 +21,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<div class="intro-mod-article">
 						<div class="intro-content">
 							<h1 class="interview-name">JP Boneyard</h1>
-							<span class="sponsor-line">Interview Presented by</span> <span class="sponsor-line-img"><img src="/_img/sponsor-logo-3.png" /></span> <span class="sponsor-line sponsor-line-b"><a href="http://www.dribbble.com/" target="_blank" />Dribbble</a></span>
+							<span class="sponsor-line">Interview Presented by</span> <span class="sponsor-line-img"><img src="/_img/_sponsor/sponsor-jakprints.png" /></span> <span class="sponsor-line sponsor-line-b"><a href="http://www.jakprints.com/" target="_blank" />Jakprints</a></span>
 						</div> <!-- /intro-content -->
 					</div> <!-- /intro-mod-article -->
 
