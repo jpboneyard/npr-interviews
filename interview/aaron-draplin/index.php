@@ -20,7 +20,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="intro-mod-article">
 						<div class="intro-content">
-							<h1 class="interview-name">Aaron James Draplin</h1>
+							<h1 class="interview-name">Aaron Draplin</h1>
 							<span class="sponsor-line">Interview Presented by</span> <span class="sponsor-line-img"><img src="/_img/sponsor-logo-2.png" /></span> <span class="sponsor-line sponsor-line-b"><a href="http://www.frenchpaper.com/" target="_blank" />French Paper Co.</a></span>
 						</div> <!-- /intro-content -->
 					</div> <!-- /intro-mod-article -->
@@ -53,11 +53,6 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<p>Orci ipsum, nibh in est habitasse torquent varius et, suscipit sit arcu enim. Vitae sed fusce platea habitasse, nulla nunc, in commodo, integer neque, sollicitudin in dictum vestibulum tempus. Elementum est massa lectus nec nam massa, magnis morbi laboris porta, arcu elit posuere vivamus ut semper aliquet, condimentum donec nisl sed in placerat. Vulputate id accumsan euismod aenean magnis, erat tincidunt lectus sodales, wisi fusce sollicitudin. At elit, mauris faucibus lacus sit.</p>
 
-
-					<blockquote class="block-quote-lg">
-						“In the end, it’s the client’s piece. I think we need to remind ourselves of this. Too many times, we want ownership of the final logo or piece. It’s not ours. We were hired for the job. Make it right and make the client love it. That’s our job.”
-					</blockquote>
-
 					<h4 class="interview-q">
 						Vitae sed fusce platea habitasse, nulla nunc, in commodo, integer neque, sollicitudin in dictum vestibulum tempus. Elementum est massa lectus nec nam massa, magnis morbi laboris porta?
 					</h4> <!-- /interview-q -->	
@@ -82,9 +77,13 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<p>Nec repellat enim. Volutpat mi vivamus a. Mauris vestibulum et sit aliquet nullam, gravida justo sit, nullam volutpat non, erat sit senectus. Ad felis nullam montes, ut quis, et nunc ut lorem bibendum cras nisl. Primis nunc eget donec velit nunc libero, pharetra senectus sed eget nibh tellus egestas, fugiat ridiculus mauris tellus eu, eu non. Dictum et aliquam magna, a sit dui ut, in vehicula consequat blandit. Congue auctor ligula ac massa, diam id risus adipiscing porttitor. Malesuada lacus et, justo nibh lobortis porttitor, lacus class metus pellentesque aenean eu, vitae nullam etiam ligula quis, venenatis pharetra nunc urna quam ipsum. Nisl sapien. Ac auctor sed tempus vitae lorem. Vitae turpis amet, ullamcorper ante sapien. A posuere, quis ultricies tempor tortor aliquet luctus ullamcorper, molestie libero sed nulla in, sodales vitae ultricies.</p>
 
+					<blockquote class="block-quote-lg">
+						“In the end, it’s the client’s piece. I think we need to remind ourselves of this. Too many times, we want ownership of the final logo or piece. It’s not ours. We were hired for the job. Make it right and make the client love it. That’s our job.”
+					</blockquote>
+
 					<p>Orci ipsum, nibh in est habitasse torquent varius et, suscipit sit arcu enim. Vitae sed fusce platea habitasse, nulla nunc, in commodo, integer neque, sollicitudin in dictum vestibulum tempus. Elementum est massa lectus nec nam massa, magnis morbi laboris porta, arcu elit posuere vivamus ut semper aliquet, condimentum donec nisl sed in placerat. Vulputate id accumsan euismod aenean magnis, erat tincidunt lectus sodales, wisi fusce sollicitudin. At elit, mauris faucibus lacus sit.</p>
 
-					<img class="img-med" src="/_img/img-med.jpg" />
+					<img class="img-med" src="/_img/_aaron-draplin/draplin-shuttle.jpg" />
 					<div class="img-caption">
 						Custom stamps and printed goods for Bailey, Hunter and Robinson
 					</div> <!-- /img-caption -->
@@ -111,19 +110,6 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					</h4> <!-- /interview-q -->	
 
 					<p>Et a. Nam aliquam eget bibendum, sodales quisque dolor, nunc velit ullamcorper etiam. Molestie in sem, velit enim cras sagittis, sem in mi nulla semper accumsan, elit morbi excepteur, consequat wisi mi. Laoreet egestas pellentesque dui, cursus sodales congue tristique, at et. Congue lacinia feugiat eu quisque enim enim, vestibulum a vitae adipiscing mi, hendrerit feugiat pellentesque cum ac viverra, sed et mauris a. Sodales eleifend at commodo malesuada, tellus consectetuer, diam interdum consectetuer ut, commodo fusce venenatis proin quisque vestibulum elit.</p>
-
-					<img class="img-med" src="/_img/img-full-3.jpg" />					
-
-					<div class="img-grid-2-mod">
-						<div class="img-grid-2">
-							<img class="media-block" src="/_img/img-two-up-1.jpg" />
-							<img class="media-block" src="/_img/img-two-up-2.jpg" />
-						</div> <!-- /img-grid-2-mod -->		
-					</div> <!-- /img-grid-2-mod -->
-
-					<div class="img-caption">
-						1. Field Notes Guidebook 2. Spaceshuttle Print Screen 3. Stuff and Junk
-					</div> <!-- /img-caption -->
 
 					<h4 class="interview-q">
 						Orci arcu mattis et a integer nisl. A nulla torquent urna justo nisi et, amet lacus, egestas ipsum penatibus nullam, fames duis sed tortor pretium quis ut?
