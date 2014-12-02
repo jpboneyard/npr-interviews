@@ -422,6 +422,11 @@ h4 {
   }
 }
 
+.overline-end-tz {
+  margin-bottom: 0px;
+  font-size: 17px;
+}
+
 .intro-overline {
   margin: 0 auto;
   text-transform: uppercase;
@@ -1294,6 +1299,9 @@ header {
   clear: both;
 }
 
+.interview-mod {
+  max-height: 675px;
+}
 .interview-mod img {
   width: 100%;
 }
@@ -1469,7 +1477,7 @@ header {
 }
 
 /* ============================================= */
-/*	Project	Page								 */
+/*	Interview Page								 */
 /* ============================================= */
 .interview-page-mod {
   background-color: #fff;
@@ -2025,6 +2033,10 @@ footer {
   position: relative;
   background-color: #fff;
   z-index: 10;
+  position: relative;
+  /*	@media (min-width: 1200px) {
+  		@include media-grid(3, 0%);
+  	}//mq*/
 }
 .article-end-tz:after {
   content: "";
@@ -2034,13 +2046,28 @@ footer {
 .article-end-tz .media-block {
   float: left;
   padding-left: 0%;
-  width: 50%;
-}
-.article-end-tz .media-block:nth-child(2n+3) {
-  clear: left;
 }
 .article-end-tz:first-child {
   margin-left: 0%;
+}
+@media (min-width: 650px) {
+  .article-end-tz {
+    margin-left: -0%;
+    *zoom: 1;
+  }
+  .article-end-tz:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .article-end-tz .media-block {
+    float: left;
+    padding-left: 0%;
+    width: 50%;
+  }
+  .article-end-tz .media-block:nth-child(2n+3) {
+    clear: left;
+  }
 }
 
 .more-interviews {
@@ -2061,6 +2088,7 @@ footer {
   z-index: 10;
   top: -12%;
   pointer-events: none;
+  display: none;
 }
 @media (min-width: 800px) {
   .more-interviews {
@@ -2074,27 +2102,38 @@ footer {
   width: 100%;
 }
 
-.article-end-item:hover {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
+.article-end-item {
+  position: relative;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+}
+.article-end-item:hover .end-tz-txt-mod {
+  bottom: 0px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  position: absolute;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.9;
+  height: 100%;
+  padding-top: 15%;
+}
+.article-end-item:hover .end-tz-txt {
+  display: block;
 }
 
 .end-tz-txt-mod {
   background-color: #292929;
   padding: 10px;
   z-index: 4;
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
   border-right: 1px solid;
   border-color: #181818;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
 }
 @media (min-width: 800px) {
   .end-tz-txt-mod {
@@ -2102,14 +2141,39 @@ footer {
   }
 }
 
-.end-tz-txt {
-  font: 400 17px/126% "schoolbook-web", Georgia, Times, Times New Roman, serif;
+.end-tz-title {
+  font: 800 25px/126% "schoolbook-web", Georgia, Times, Times New Roman, serif;
   color: #eee;
 }
-@media (min-width: 800px) {
-  .end-tz-txt {
-    font-size: 25px;
+@media (min-width: 600px) {
+  .end-tz-title {
+    font-size: 32px;
   }
+}
+
+.end-tz-txt {
+  font: 400 17px/130% "schoolbook-web", Georgia, Times, Times New Roman, serif;
+  color: #eee;
+  display: none;
+  max-width: 75%;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-top: 1px solid;
+  border-color: #fff;
+  padding-top: 10px;
+}
+@media (min-width: 600px) {
+  .end-tz-txt {
+    font-size: 20px;
+  }
+}
+
+.end-tz-more {
+  font: 400 17px/130% "schoolbook-web", Georgia, Times, Times New Roman, serif;
+  color: #eee;
+  border-top: 0px;
+  text-align: center;
 }
 
 .end-tz-txt-sub {

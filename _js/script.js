@@ -18,16 +18,6 @@ var interviewObjects = [
         "index": "3",
          "link": "/interview/jp-boneyard",
          "name": "JP Boneyard"
-     },
-    {
-        "index": "4",
-         "link": "/interview/laura-baisden",
-         "name": "Laura Baisden"
-     },
-    {
-        "index": "5",
-         "link": "/interview/daniel-danger",
-         "name": "Daniel Danger"
      }
 ];
 
@@ -54,8 +44,8 @@ for (var i = interviewObjects.length - 1; i >= 0; i--) {
 
 //randomize which ad is loaded on the site
 var imageObjects = [
-    {"img": "big-box-ad-2.gif", "link":"http://google.com"}, 
-    {"img": "big-box-ad-3.gif", "link":"http://amazon.com"},
+    {"img": "french-ad.gif", "link":"http://frenchpaper.com"}, 
+    {"img": "npr.gif", "link":"http://nprshow.com"},
     {"img": "big-box-ad.gif", "link":"http://jakprints.com"}
 ];
 

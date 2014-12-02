@@ -112,10 +112,6 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<p>Et a. Nam aliquam eget bibendum, sodales quisque dolor, nunc velit ullamcorper etiam. Molestie in sem, velit enim cras sagittis, sem in mi nulla semper accumsan, elit morbi excepteur, consequat wisi mi. Laoreet egestas pellentesque dui, cursus sodales congue tristique, at et. Congue lacinia feugiat eu quisque enim enim, vestibulum a vitae adipiscing mi, hendrerit feugiat pellentesque cum ac viverra, sed et mauris a. Sodales eleifend at commodo malesuada, tellus consectetuer, diam interdum consectetuer ut, commodo fusce venenatis proin quisque vestibulum elit.</p>
 
 					<h4 class="interview-q">
-						Orci arcu mattis et a integer nisl. A nulla torquent urna justo nisi et, amet lacus, egestas ipsum penatibus nullam, fames duis sed tortor pretium quis ut?
-					</h4> <!-- /interview-q -->	
-
-					<h4 class="interview-q">
 						Vitae sed fusce platea habitasse, nulla nunc, in commodo, integer neque, sollicitudin in dictum vestibulum tempus. Elementum est massa lectus nec nam massa, magnis morbi laboris porta?
 					</h4> <!-- /interview-q -->	
 
@@ -137,6 +133,17 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 
 					<p>At quis etiam, praesent aut facilisi at non sit tempus. At malesuada lorem, pede eu duis dictum ullamcorper ipsum faucibus, inceptos pede accumsan. Gravida voluptates platea, massa quam ligula est ante in, donec dolor velit, ac luctus. Mauris lobortis elit, nonummy vel vestibulum, praesent dolor alias mauris posuere sed pede. Eros duis, risus eros lobortis sed urna ac iaculis, aliquam iaculis ut non sem cursus interdum, sed phasellus. Ante mus, purus pulvinar tempus vestibulum, esse id cras, fusce rutrum elit eu eros faucibus. In amet et penatibus quis quis gravida, elit suspendisse eu magnis, fermentum diam nonummy mus, posuere magna leo ac, ligula elementum. Elit nec congue integer etiam, quae tincidunt, et odio, aliquam consequat tempor. Tristique nulla et lacinia convallis, quis nulla cum. Consequat quis aptent suscipit, vivamus libero lacus odio cras pulvinar.</p>
+
+					<div class="sponsored-content-mod"> 
+						<div class="sponsored-content-img"> </div>
+						<div class="sponsored-credit">Sponsored Content</div>
+					</div> <!-- /sponsored-content-mod -->
+
+					<h4 class="interview-q">
+						Vitae sed fusce platea habitasse, nulla nunc, in commodo, integer neque, sollicitudin in dictum vestibulum tempus. Elementum est massa lectus nec nam massa, magnis morbi laboris porta?
+					</h4> <!-- /interview-q -->	
+
+					<p>Et a. Nam aliquam eget bibendum, sodales quisque dolor, nunc velit ullamcorper etiam. Molestie in sem, velit enim cras sagittis, sem in mi nulla semper accumsan, elit morbi excepteur, consequat wisi mi. Laoreet egestas pellentesque dui, cursus sodales congue tristique, at et. Congue lacinia feugiat eu quisque enim enim, vestibulum a vitae adipiscing mi, hendrerit feugiat pellentesque cum ac viverra, sed et mauris a. Sodales eleifend at commodo malesuada, tellus consectetuer, diam interdum consectetuer ut, commodo fusce venenatis proin quisque vestibulum elit.</p>
 
 					<div class="end-graph-mod">
 						<p>Orci arcu mattis et a integer nisl. A nulla torquent urna justo nisi et, amet lacus, egestas ipsum penatibus nullam, fames duis sed tortor pretium quis ut, mauris fermentum velit. In facilisis, nibh morbi, et sapien nam, wisi luctus eros odio ut sed. Sapien porta, facilisis luctus neque tellus donec a, at tortor sed id ullamcorper eget vitae. Lacus ligula enim sollicitudin ipsum sed imperdiet, aut nonummy, nunc elit tristique, etiam dictum augue nisl adipiscing. Eu id. Eget nisl vestibulum vestibulum. Suspendisse vitae scelerisque, vitae eros, tellus nascetur faucibus. Tellus penatibus blandit, suspendisse posuere sed id tortor, curabitur imperdiet tempor nulla, nunc lacus, iaculis ullamcorper.</p>	

@@ -85,6 +85,11 @@ h4 {
 	}//mq
 }
 
+.overline-end-tz {
+	margin-bottom: 0px;
+	font-size: 17px;
+}
+
 .intro-overline {
 	margin: 0 auto;
 	text-transform: uppercase;
@@ -849,6 +854,7 @@ header {
 }
 
 .interview-mod {
+	max-height: 675px;
 
 	img {
 		width: 100%;
@@ -985,10 +991,10 @@ header {
 }
 
 /* ============================================= */
-/*	Project	Page								 */ 
+/*	Interview Page								 */ 
 /* ============================================= */
 
-.interview-page-mod{
+.interview-page-mod {
 	background-color: #fff;
 	z-index: 2;
 	position: relative;
@@ -1461,18 +1467,28 @@ footer {
 }
 
 .article-end-tz {
-	@include media-grid(2, 0%);
+	@include media-grid(1, 0%);
 	width: 100%;
 	border-top: 1px solid;
 	border-color: #181818;
 	position: relative;
 	background-color: #fff;
 	z-index: 10;
+	position: relative;
 
 	&:first-child {
 		margin-left: 0%;
 	}
-}
+
+	@media (min-width: 650px) {
+		@include media-grid(2, 0%);
+	}//mq
+
+
+/*	@media (min-width: 1200px) {
+		@include media-grid(3, 0%);
+	}//mq*/
+}//article-end-tz
 
 .more-interviews {
 	margin: 0 auto;
@@ -1492,6 +1508,7 @@ footer {
 	z-index: 10;
 	top: -12%;
 	pointer-events: none;
+	display: none;
 
 	@media (min-width: 800px) {
 		top: 40%;
@@ -1506,35 +1523,71 @@ footer {
 }
 
 .article-end-item {
+	position: relative;
+	@include trans;
 
 	&:hover {
-		@include opacity(.8);
-		@include trans;
-	}//hover
+		.end-tz-txt-mod {
+			bottom: 0px;
+			@include trans;
+			position: absolute;
+			@include opacity(.9);
+			height: 100%;
+			padding-top: 15%;
+		}
 
-}//article-end-item
+		.end-tz-txt {
+			display: block;
+		}
+	}//hover
+}
 
 .end-tz-txt-mod {
 	background-color: #292929;
 	padding: 10px;
 	z-index: 4;
-	@include trans;
-	@include opacity(1);
 	border-right: 1px solid;
 	border-color: #181818;
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
 
 	@media (min-width: 800px) {
 		padding: 20px;
 	}//mq800
 }
 
-.end-tz-txt {
-	font: 400 17px/126% $serif;
+.end-tz-title {
+	font: 800 25px/126% $serif;
 	color: #eee;
 
-	@media (min-width: 800px) {
-		font-size: 25px;
+	@media (min-width: 600px) {
+		font-size: 32px;
+	}//mq800	
+}
+
+.end-tz-txt {
+	font: 400 17px/130% $serif;
+	color: #eee;
+	display: none;
+	max-width: 75%;
+	text-align: left;
+	margin: 0 auto;
+	margin-top: 15px;
+	border-top: 1px solid;
+	border-color: #fff;
+	padding-top: 10px;
+
+	@media (min-width: 600px) {
+		font-size: 20px;
 	}//mq800
+}
+
+.end-tz-more {
+	font: 400 17px/130% $serif;
+	color: #eee;
+	border-top: 0px;
+	text-align: center;
 }
 
 .end-tz-txt-sub {

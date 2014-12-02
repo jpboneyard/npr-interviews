@@ -6,7 +6,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 		<div id="main" role="main">
 			<div class="interview-mod-article" id="top">
-				<img class="interview-img-article fade-me" src="/_img/_two-arms/topper-two-arms.jpg" alt="Two Arms Inc Topper" />
+				<img class="interview-img-article fade-me" src="/_img/_mcpherson/topper-tara-mcpherson.jpg" alt="Tara McPherson Topper" />
 				<div class="scroll-arrow-mod arrow-start">
 					<div class="bounce">
 						<div class="scroll-txt">Scroll</div>
@@ -20,8 +20,8 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="intro-mod-article">
 						<div class="intro-content">
-							<h1 class="interview-name">Two Arms Inc</h1>
-							<span class="sponsor-line">Interview Presented by</span> <span class="sponsor-line-img"><img src="/_img/sponsor-logo-3.png" /></span> <span class="sponsor-line sponsor-line-b"><a href="http://www.dribbble.com/" target="_blank" />Dribbble</a></span>
+							<h1 class="interview-name">Tara McPherson</h1>
+							<span class="sponsor-line">Interview Presented by</span> <span class="sponsor-line-img"><img src="/_img/_sponsor/sponsor-jakprints.png" /></span> <span class="sponsor-line sponsor-line-b"><a href="http://www.jakprints.com/" target="_blank" />Jakprints</a></span>
 						</div> <!-- /intro-content -->
 					</div> <!-- /intro-mod-article -->
 
@@ -44,8 +44,8 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 						<div class="sponsored-credit">Sponsored Content</div>
 					</div> <!-- /sponsored-content-mod -->
 
-					<img class="img-med" src="/_img/_two-arms/img-med-4.jpg" />
-					<div class="img-caption">Promotional Poster, Three Color Screen Print</div> 
+					<img class="img-med" src="/_img/_jp-boneyard/boneyard-npr-poster.jpg" />
+					<div class="img-caption">Poster for The 2013 National Poster Retrospecticus Tour</div> 
 
 					<h4 class="interview-q">
 						Et a. Nam aliquam eget bibendum, sodales quisque dolor, nunc velit ullamcorper etiam. Molestie in sem?
@@ -55,7 +55,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 
 					<blockquote class="block-quote-lg">
-						“We try out best to push our selves to create something that feels and looks more hand touched. The best way to do this is to get off the computer. I love hand lettering, and creating our own textures.”
+						“I'm a firm believer that if you work hard, have faith in what you're doing and remain honest with yourself and others you can't go wrong.”
 					</blockquote>
 
 					<h4 class="interview-q">
@@ -64,10 +64,18 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<p>Per velit pede morbi odio ultrices, neque orci rhoncus sem fames, sapien nullam sit ad, nunc consequat malesuada amet nec feugiat, laboris sem mauris diam integer morbi. Odio iaculis penatibus, fermentum consectetuer mollis sit, impedit ac non purus auctor mi voluptate. Eu ante tincidunt pede varius arcu, vehicula dolor hendrerit sapien pellentesque, placerat iaculis dui nunc semper lacus sed, neque leo sit libero. Justo nulla est ante, phasellus duis nullam ut, per massa lobortis quam mus dui, lectus malesuada amet, enim non in a wisi morbi arcu.</p>
 
-					<img class="img-med" src="/_img/img-med.jpg" />					
+					<img class="img-med" src="/_img/_jp-boneyard/letter-project-set.jpg" />					
+
+					<div class="img-grid-3-sm-mod">
+						<div class="img-grid-3-sm">
+							<img class="media-block" src="/_img/_jp-boneyard/letter-a.jpg" />
+							<img class="media-block" src="/_img/_jp-boneyard/letter-b.jpg" />
+							<img class="media-block" src="/_img/_jp-boneyard/letter-c.jpg" />
+						</div> <!-- /img-grid-3 -->
+					</div> <!-- /img-grid-3-mod -->
 
 					<div class="img-caption">
-						Letter Press Jams for Bailey Hunter & Robinson
+						Letter Project Set Made of Custom and Found Type, Two Color Screen Print
 					</div> <!-- /img-caption -->
 
 					<h4 class="interview-q">
@@ -78,15 +86,9 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<p>Orci ipsum, nibh in est habitasse torquent varius et, suscipit sit arcu enim. Vitae sed fusce platea habitasse, nulla nunc, in commodo, integer neque, sollicitudin in dictum vestibulum tempus. Elementum est massa lectus nec nam massa, magnis morbi laboris porta, arcu elit posuere vivamus ut semper aliquet, condimentum donec nisl sed in placerat. Vulputate id accumsan euismod aenean magnis, erat tincidunt lectus sodales, wisi fusce sollicitudin. At elit, mauris faucibus lacus sit.</p>
 
-					<div class="img-grid-3-mod">
-						<div class="img-grid-3">
-							<img class="media-block" src="/_img/_two-arms/two-arms-1.jpg" />
-							<img class="media-block" src="/_img/_two-arms/two-arms-2.jpg" />
-							<img class="media-block" src="/_img/_two-arms/two-arms-3.jpg" />
-						</div>	
-					</div> <!-- /img-grid-3-mod -->	
+					<img class="img-med" src="/_img/_jp-boneyard/holiday-card.jpg" />
 					<div class="img-caption">
-						1. Dave Mathews Poster 2. The NPR Poster 3. Magic City Poster
+						Holiday Card for Upstatement, Two Color Screen Print
 					</div> <!-- /img-caption -->
 
 					<h4 class="interview-q">
@@ -98,7 +100,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<p>Nec repellat enim. Volutpat mi vivamus a. Mauris vestibulum et sit aliquet nullam, gravida justo sit, nullam volutpat non, erat sit senectus. Ad felis nullam montes, ut quis, et nunc ut lorem bibendum cras nisl. Primis nunc eget donec velit nunc libero, pharetra senectus sed eget nibh tellus egestas, fugiat ridiculus mauris tellus eu, eu non. Dictum et aliquam magna, a sit dui ut, in vehicula consequat blandit. Congue auctor ligula ac massa, diam id risus adipiscing porttitor. Malesuada lacus et, justo nibh lobortis porttitor, lacus class metus pellentesque aenean eu, vitae nullam etiam ligula quis, venenatis pharetra nunc urna quam ipsum. Nisl sapien. Ac auctor sed tempus vitae lorem. Vitae turpis amet, ullamcorper ante sapien. A posuere, quis ultricies tempor tortor aliquet luctus ullamcorper, molestie libero sed nulla in, sodales vitae ultricies.</p>		
 					
 
-					<img class="img-full" src="/_img/_two-arms/group.jpg" />
+					<img class="img-full" src="/_img/_jp-boneyard/boneyard-desk.jpg" />
 
 					<div class="section-intro-top">
 						<h2 class="section-intro-h">Behind the Process</h2>
@@ -112,7 +114,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<p>Et a. Nam aliquam eget bibendum, sodales quisque dolor, nunc velit ullamcorper etiam. Molestie in sem, velit enim cras sagittis, sem in mi nulla semper accumsan, elit morbi excepteur, consequat wisi mi. Laoreet egestas pellentesque dui, cursus sodales congue tristique, at et. Congue lacinia feugiat eu quisque enim enim, vestibulum a vitae adipiscing mi, hendrerit feugiat pellentesque cum ac viverra, sed et mauris a. Sodales eleifend at commodo malesuada, tellus consectetuer, diam interdum consectetuer ut, commodo fusce venenatis proin quisque vestibulum elit.</p>
 
-					<img class="img-med" src="/_img/_two-arms/img-med-3.jpg" />
+					<img class="img-med" src="/_img/_jp-boneyard/word-camp-poster.jpg" />
 
 					<div class="img-caption">
 						WordCamp Poster for Upstatement
@@ -123,18 +125,6 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					</h4> <!-- /interview-q -->	
 
 					<p>Et a. Nam aliquam eget bibendum, sodales quisque dolor, nunc velit ullamcorper etiam. Molestie in sem, velit enim cras sagittis, sem in mi nulla semper accumsan, elit morbi excepteur, consequat wisi mi. Laoreet egestas pellentesque dui, cursus sodales congue tristique, at et. Congue lacinia feugiat eu quisque enim enim, vestibulum a vitae adipiscing mi, hendrerit feugiat pellentesque cum ac viverra, sed et mauris a. Sodales eleifend at commodo malesuada, tellus consectetuer, diam interdum consectetuer ut, commodo fusce venenatis proin quisque vestibulum elit.</p>
-
-					<div class="sponsored-content-mod"> 
-						<div class="sponsored-content-img"> </div>
-						<div class="sponsored-credit">Sponsored Content</div>
-					</div> <!-- /sponsored-content-mod -->
-
-					<h4 class="interview-q">
-						Vitae sed fusce platea habitasse, nulla nunc, in commodo, integer neque, sollicitudin in dictum vestibulum tempus. Elementum est massa lectus nec nam massa, magnis morbi laboris porta?
-					</h4> <!-- /interview-q -->	
-
-					<p>Et a. Nam aliquam eget bibendum, sodales quisque dolor, nunc velit ullamcorper etiam. Molestie in sem, velit enim cras sagittis, sem in mi nulla semper accumsan, elit morbi excepteur, consequat wisi mi. Laoreet egestas pellentesque dui, cursus sodales congue tristique, at et. Congue lacinia feugiat eu quisque enim enim, vestibulum a vitae adipiscing mi, hendrerit feugiat pellentesque cum ac viverra, sed et mauris a. Sodales eleifend at commodo malesuada, tellus consectetuer, diam interdum consectetuer ut, commodo fusce venenatis proin quisque vestibulum elit.</p>
-
 
 					<div class="end-graph-mod">
 						<p>Orci arcu mattis et a integer nisl. A nulla torquent urna justo nisi et, amet lacus, egestas ipsum penatibus nullam, fames duis sed tortor pretium quis ut, mauris fermentum velit. In facilisis, nibh morbi, et sapien nam, wisi luctus eros odio ut sed. Sapien porta, facilisis luctus neque tellus donec a, at tortor sed id ullamcorper eget vitae. Lacus ligula enim sollicitudin ipsum sed imperdiet, aut nonummy, nunc elit tristique, etiam dictum augue nisl adipiscing. Eu id. Eget nisl vestibulum vestibulum. Suspendisse vitae scelerisque, vitae eros, tellus nascetur faucibus. Tellus penatibus blandit, suspendisse posuere sed id tortor, curabitur imperdiet tempor nulla, nunc lacus, iaculis ullamcorper.</p>	
