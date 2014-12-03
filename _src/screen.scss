@@ -85,11 +85,6 @@ h4 {
 	}//mq
 }
 
-.overline-end-tz {
-	margin-bottom: 0px;
-	font-size: 17px;
-}
-
 .intro-overline {
 	margin: 0 auto;
 	text-transform: uppercase;
@@ -633,6 +628,7 @@ header {
 
 .social-mod-start {
 	border-top: 1px solid;
+	border-color: #181818;
 	max-width: $standard-width;
 	margin: 0 auto;
 	padding: 10px 5px;
@@ -643,12 +639,15 @@ header {
 
 .social-mod {
 	border-top: 1px solid;
+	border-color: #d2d2d2;
 	max-width: $standard-width;
 	margin: 0 auto;
-	padding: 10px 5px;
+	padding: 18px 20px;
 	font: 400 27px/126% $sans-title;
 	text-transform: uppercase;
 	letter-spacing: 3px;
+	background-color: #f9f9f9;
+	margin-bottom: 15px;
 }
 
 .sponsor-end {
@@ -695,13 +694,18 @@ header {
 	color: #666;
 }
 
+.social-follow, .social-name {
+	color: #666;
+}
+
 .sponsor-social-list {
 	text-align: center;
 	text-align: left;
 	max-width: $standard-width;
 	margin: 0 auto;
-	margin-bottom: 25px;
+	margin: 8px 0px;
 	font: 400 14px/140% $sans;
+	padding-bottom: 10px;
 }
 
 .img-grid {
@@ -1313,6 +1317,13 @@ footer {
 	letter-spacing: 2px;
 	margin-right: 20px;
 
+	&:last-child {
+		border-right: 1px solid;
+		border-color: #292929;
+		margin-right: 20px;
+		padding-right: 20px;
+	}
+
 	a {
 		color: #777;
 	}
@@ -1320,6 +1331,11 @@ footer {
 	@media (min-width: 800px) {
 		font-size: 24px;
 	}//mq800
+}
+
+.ftr-social-list {
+	display: inline;
+	float: left;
 }
 
 .ftr-info-mod {
@@ -1429,8 +1445,8 @@ footer {
 
 .social-item {
 	display: inline;
-	margin-right: 15px;
-	@include opacity(.7);
+	margin-right: 12px;
+	@include opacity(.6);
 	@include trans;
 
 	&:last-child {
@@ -1484,11 +1500,22 @@ footer {
 		@include media-grid(2, 0%);
 	}//mq
 
+	@media (min-width: 1500px) {
+		@include media-grid(3, 0%);
+	}//mq
 
 /*	@media (min-width: 1200px) {
 		@include media-grid(3, 0%);
 	}//mq*/
 }//article-end-tz
+
+.end-item-last {
+	display: none;
+
+	@media (min-width: 1500px) {
+		display: block;
+	}//mq
+}
 
 .more-interviews {
 	margin: 0 auto;
@@ -1514,7 +1541,7 @@ footer {
 		top: 40%;
 		max-width: 218px;
 		font-size: 28px;
-	}//mq800	
+	}//mq800
 }
 
 
@@ -1525,6 +1552,7 @@ footer {
 .article-end-item {
 	position: relative;
 	@include trans;
+	overflow: hidden;
 
 	&:hover {
 		.end-tz-txt-mod {
@@ -1534,10 +1562,15 @@ footer {
 			@include opacity(.9);
 			height: 100%;
 			padding-top: 15%;
+
+			@media (min-width: 2000px) {
+				padding-top: 18%;
+			}//mq2000	
 		}
 
 		.end-tz-txt {
 			display: block;
+			@include trans;
 		}
 	}//hover
 }
@@ -1551,43 +1584,103 @@ footer {
 	position: absolute;
 	bottom: 0%;
 	width: 100%;
+	height: 70px;
+	@include trans;
+	border-bottom: 1px solid;
+	border-color: #181818;
 
-	@media (min-width: 800px) {
+	@media (min-width: 1200px) and (max-width: 1799px){		
+		height: 105px;
+	}//mq	
+
+	@media (min-width: 1200px) {
 		padding: 20px;
+	}//mq800
+
+	@media (min-width: 1500px) and (max-width: 1800px){		
+		height: 98px;
+	}//mq	
+
+	@media (min-width: 1801px) {
+		height: 110px;
 	}//mq800
 }
 
 .end-tz-title {
-	font: 800 25px/126% $serif;
+	font: 800 22px/126% $serif;
 	color: #eee;
 
-	@media (min-width: 600px) {
+	@media (min-width: 1200px) {
 		font-size: 32px;
+	}//mq800	
+
+	@media (min-width: 1100px) and (max-width: 1799px){		
+
+	}//mq	
+
+	@media (min-width: 800px) {
+
+	}//mq800
+
+	@media (min-width: 1500px) and (max-width: 1800px){		
+		font-size: 28px;
+	}//mq	
+
+	@media (min-width: 1801px) {
+
+	}//mq1801
+
+}
+
+.overline-end-tz {
+	margin-bottom: -2px;
+	font-size: 14px;
+
+	@media (min-width: 1200px) {
+		font-size: 17px;
+		margin-bottom: 0px;
 	}//mq800	
 }
 
 .end-tz-txt {
-	font: 400 17px/130% $serif;
+	font: 400 15px/130% $serif;
 	color: #eee;
 	display: none;
-	max-width: 75%;
+	max-width: 90%;
 	text-align: left;
 	margin: 0 auto;
-	margin-top: 15px;
+	margin-top: 12px;
 	border-top: 1px solid;
 	border-color: #fff;
-	padding-top: 10px;
+	padding-top: 12px;
+	@include trans;
+	overflow: hidden;
 
-	@media (min-width: 600px) {
+	@media (min-width: 800px) {
 		font-size: 20px;
+		width: 80%;
 	}//mq800
+
+	@media (min-width: 2000px) {
+		max-width: 470px;
+	}//mq2000
+
+	@media (min-width: 1500px) and (max-width: 1800px){		
+		font-size: 18px;
+	}//mq	
 }
 
 .end-tz-more {
-	font: 400 17px/130% $serif;
+	font: 400 12px/130% $serif;
 	color: #eee;
+	font-style: italic;
 	border-top: 0px;
 	text-align: center;
+	color: $site-orange;
+
+	@media (min-width: 800px) {
+		font-size: 15px;
+	}//mq800
 }
 
 .end-tz-txt-sub {

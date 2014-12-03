@@ -20,6 +20,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="intro-mod-article">
 						<div class="intro-content">
+							<div class="overline">Interview No. 2 / Feb. 2015</div>
 							<h1 class="interview-name">Aaron Draplin</h1>
 							<span class="sponsor-line">Interview Presented by</span> <span class="sponsor-line-img"><img src="/_img/sponsor-logo-2.png" /></span> <span class="sponsor-line sponsor-line-b"><a href="http://www.frenchpaper.com/" target="_blank" />French Paper Co.</a></span>
 						</div> <!-- /intro-content -->
@@ -175,14 +176,14 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<div class="social-mod">
 						<span class="social-follow">Follow</span> <span class="social-name"></span>
 
-					</div> <!-- /social-mod -->	
-
 					<ul class="sponsor-social-list">
 						<li class="social-item"><a href="http://dribbble.com/jpboneyard" target="_blank"><img class="social-item-img" src="/_img/_icons/social-dribbble.png"></li></a>	
 						<li class="social-item"><a href="http://instagram.com/jpboneyard" target="_blank"><img class="social-item-img" src="/_img/_icons/social-instagram.png"></li></a>	
 						<li class="social-item"><a href="https://twitter.com/jpboneyard" target="_blank"><img class="social-item-img" src="/_img/_icons/social-twitter.png"></li></a>	
 						<li class="social-item"><a href="http://jpboneyard.tumblr.com/" target="_blank"><img class="social-item-img" src="/_img/_icons/social-tumblr.png"></li></a>
-					</ul> <!-- /social-mod -->	
+					</ul> <!-- /sponsor-social-list -->	
+				</div> <!-- /social-mod -->	
+
 
 				</div> <!-- /interview-page-content -->					
 			</div> <!-- /interview-page-mod -->
