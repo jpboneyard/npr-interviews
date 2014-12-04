@@ -19,15 +19,16 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 				</div> <!-- /intro-mod -->
 
 				<div class="lead-in-txt-mod">
-					<blockquote class="lead-in-txt">The NPR Interview Series was born out of The NPR touring poster show. Our goal is to document and celebrate the efforts of artists and printmakers in the poster world. We'd also hope to provide insight into their process and inspire the next generation of poster makers and enthusiasts. </blockquote>
+					<blockquote class="lead-in-txt">The NPR Interview Series was born out of The NPR touring poster show. Our goal is to document and celebrate the efforts of artists, printmakers and print enthusiasts around the world. We'd also hope to provide insight into their process and inspire the next generation of poster makers and fans alike. </blockquote>
 				</div> <!-- /lead-in-txt -->
 
-				<p>Touring around the country with The NPR has been one of the greatest adventures of my life. It is through this adventure that I am able to combine my design skills, show planning background, love for community based events, enthusiasm for travel and passion for posters into one amazing experience. I am also fortunate enough to meet some of the most genuine and kindest people while on the road—most of whom share the same enthusiasm for posters. This enthusiasm is like fuel that helps keep me going while we make those eleven hour drives through crazy weather and deserted stretches of highway, hang 300 posters and host a packed show for one-night-only in each city.</p>					
+				<p>The National Poster Retrospecticus exists to document and inspire the happenings in the poster world. We've been traveling North America with a massive collection of posters and setting up one-night-only shows since 2012. In 2014 we expanded our efforts into this here interview series. The idea is to provide insight into the world of poster designers, printers and enthusisasts. We're stoked on this new adventure and we hope it's just one of many more milestones along the way!
+				</p>					
 					
 				<div class="about-signature-mod">
 					<img src="/_img/about-signature.jpg" class="about-signature" />
 					<div class="about-signature-name">JP Boneyard</div>
-					<div class="about-signature-title">Producer, The NPR</div>
+					<div class="about-signature-title">Producer / Dude</div>
 				</div> <!-- /about-signature-mod -->	
 			</div> <!-- /interview-page-content -->					
 		</div> <!-- /interview-page-mod -->

@@ -1303,9 +1303,6 @@ header {
   clear: both;
 }
 
-.interview-mod {
-  max-height: 675px;
-}
 .interview-mod img {
   width: 100%;
 }
@@ -1696,7 +1693,7 @@ header {
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
-  color: #000;
+  color: #e95846;
 }
 .previous-tab a {
   padding: 20px;
@@ -1738,7 +1735,7 @@ header {
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
-  color: #000;
+  color: #e95846;
 }
 .next-tab a {
   padding: 20px;
@@ -1816,6 +1813,10 @@ header {
   margin-bottom: 2px;
 }
 
+.about-signature-name {
+  font-weight: bold;
+}
+
 /* ============================================= */
 /*	Footer										 */
 /* ============================================= */
@@ -1823,26 +1824,47 @@ footer {
   background-color: #181818;
   position: relative;
   color: #eee;
-  padding: 35px;
-  height: 500px;
+  padding: 60px 25px 70px 25px;
   z-index: 10;
 }
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
   footer {
-    height: 350px;
     padding: 85px;
   }
 }
 
 .ftr-content-mod {
   margin: 0 auto;
-  max-width: 935px;
+  max-width: 700px;
+  *zoom: 1;
+}
+.ftr-content-mod:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 900px) {
+  .ftr-content-mod {
+    max-width: 935px;
+  }
 }
 
 .ftr-link-list {
-  border-bottom: 2px solid;
-  border-color: #292929;
-  padding-bottom: 20px;
+  padding-bottom: 11px;
+  float: none;
+  *zoom: 1;
+  text-align: center;
+}
+.ftr-link-list:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 550px) {
+  .ftr-link-list {
+    float: left;
+    text-align: left;
+  }
 }
 
 .ftr-link-item {
@@ -1852,15 +1874,26 @@ footer {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-right: 20px;
+  padding-bottom: 12px;
+  padding-top: 15px;
 }
 .ftr-link-item:last-child {
-  border-right: 1px solid;
+  border-right: 0px solid;
   border-color: #292929;
   margin-right: 20px;
   padding-right: 20px;
 }
+@media (min-width: 550px) {
+  .ftr-link-item:last-child {
+    border-right: 1px solid;
+    border-color: #292929;
+  }
+}
 .ftr-link-item a {
   color: #777;
+}
+.ftr-link-item a:hover {
+  color: #999;
 }
 @media (min-width: 800px) {
   .ftr-link-item {
@@ -1869,13 +1902,21 @@ footer {
 }
 
 .ftr-social-list {
-  display: inline;
-  float: left;
+  display: block;
+  float: none;
+  margin-top: 7px;
+  text-align: center;
+}
+@media (min-width: 550px) {
+  .ftr-social-list {
+    display: inline;
+    float: left;
+    text-align: left;
+  }
 }
 
 .ftr-info-mod {
   max-width: 735px;
-  width: 100%;
   float: left;
   display: inline;
   *zoom: 1;
@@ -1888,32 +1929,46 @@ footer {
   display: table;
   clear: both;
 }
+@media (min-width: 800px) and (max-width: 1100px) {
+  .ftr-info-mod {
+    margin: 0px 50px;
+  }
+}
 @media (min-width: 1100px) {
   .ftr-info-mod {
-    border-right: 2px solid;
+    border-right: 1px solid;
     border-color: #292929;
   }
 }
 
 .ftr-blurb-mod {
-  padding: 20px 30px 20px 0px;
+  padding: 20px 0px 30px 0px;
   border-bottom: 1px solid;
-  border-color: #999;
+  border-top: 1px solid;
+  border-color: #292929;
   color: #777;
+  margin: 0 auto;
+  margin-top: 25px;
 }
-@media (min-width: 1000px) {
+@media (min-width: 550px) {
+  .ftr-blurb-mod {
+    margin-top: 40px;
+  }
+}
+@media (min-width: 1100px) {
   .ftr-blurb-mod {
     border-bottom: 0px;
     padding-bottom: 0px;
+    padding-right: 30px;
   }
 }
 
 .ftr-blurb {
-  font: 400 14px/130% "nimbus-sans", Arial, Helvetica, Verdana, sans-serif;
+  font: 400 15px/130% "nimbus-sans", Arial, Helvetica, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   display: inline;
 }
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   .ftr-blurb {
     font-size: 16px;
   }
@@ -1934,6 +1989,13 @@ footer {
 .ftr-sponsor-mod {
   float: none;
   display: block;
+  text-align: center;
+  *zoom: 1;
+}
+.ftr-sponsor-mod:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 @media (min-width: 1100px) {
   .ftr-sponsor-mod {
@@ -1951,12 +2013,22 @@ footer {
 }
 
 .ftr-sponsor {
-  max-width: 165px;
+  max-width: 130px;
   margin-bottom: 10px;
+}
+@media (min-width: 500px) {
+  .ftr-sponsor {
+    max-width: 140px;
+  }
+}
+@media (min-width: 900px) {
+  .ftr-sponsor {
+    max-width: 160px;
+  }
 }
 
 .ftr-sponsor-txt {
-  font: 400 14px/130% "nimbus-sans", Arial, Helvetica, Verdana, sans-serif;
+  font: 400 13px/130% "nimbus-sans", Arial, Helvetica, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #777;
 }
@@ -2018,11 +2090,11 @@ footer {
 .social-item-img {
   max-width: 23px;
   width: 100%;
+  margin-top: -7px;
 }
 @media (min-width: 800px) {
   .social-item-img {
     max-width: 23px;
-    margin-top: -7px;
   }
 }
 
@@ -2301,6 +2373,50 @@ footer {
 }
 
 /* ============================================= */
+/*	Support Page				 				 */
+/* ============================================= */
+.support-options-mod {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 675px;
+}
+@media (min-width: 600px) {
+  .support-options-mod {
+    margin-left: -0px;
+    *zoom: 1;
+    margin: 0 auto;
+  }
+  .support-options-mod:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .support-options-mod .media-block {
+    float: left;
+    padding-left: 0px;
+    width: 50%;
+  }
+  .support-options-mod .media-block:nth-child(2n+3) {
+    clear: left;
+  }
+}
+
+.support-option {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.support-option-img {
+  max-width: 40%;
+  margin-bottom: -20px;
+}
+@media (min-width: 600px) {
+  .support-option-img {
+    max-width: 225px;
+  }
+}
+
+/* ============================================= */
 /*	404 Page				 					 */
 /* ============================================= */
 .error-video-mod {
@@ -2348,8 +2464,22 @@ footer {
 .btn-txt {
   text-transform: uppercase;
   letter-spacing: 2px;
+  *zoom: 1;
+}
+.btn-txt:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
+.btn-submit {
+  *zoom: 1;
+}
+.btn-submit:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .btn-submit a {
   position: relative;
   color: #fff;

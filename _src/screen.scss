@@ -858,7 +858,6 @@ header {
 }
 
 .interview-mod {
-	max-height: 675px;
 
 	img {
 		width: 100%;
@@ -1181,7 +1180,7 @@ header {
 	&:hover {
 		margin-left: -50px;
 		@include trans;
-		color: #000;
+		color: $site-orange;
 	}
 
 	a {
@@ -1218,7 +1217,7 @@ header {
 	&:hover {
 		margin-right: -50px;
 		@include trans;
-		color: #000;
+		color: $site-orange;
 	}
 
 	a {
@@ -1278,6 +1277,9 @@ header {
 	margin-bottom: 2px;
 }
 
+.about-signature-name {
+	font-weight: bold;
+}
 
 
 /* ============================================= */
@@ -1288,25 +1290,34 @@ footer {
 	background-color: #181818;
 	position: relative;
 	color: #eee;
-	padding: 35px;
-	height: 500px;
+	padding: 60px 25px 70px 25px;
 	z-index: 10;
 
-	@media (min-width: 1100px) {
-		height: 350px;
+	@media (min-width: 900px) {
 		padding: 85px;
 	}//mq
 }
 
 .ftr-content-mod {
 	margin: 0 auto;
-	max-width: 935px;
+	max-width: 700px;
+	@include pie-clearfix;
+
+	@media (min-width: 900px) {
+		max-width: 935px;
+	}//mq
 }
 
 .ftr-link-list {
-	border-bottom: 2px solid;
-	border-color: #292929;
-	padding-bottom: 20px;
+	padding-bottom: 11px;
+	float: none;
+	@include pie-clearfix;
+	text-align: center;
+
+	@media (min-width: 550px) {
+		float: left;
+		text-align: left;
+	}//mq
 }
 
 .ftr-link-item {
@@ -1316,16 +1327,27 @@ footer {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-right: 20px;
+	padding-bottom: 12px;
+	padding-top: 15px;
 
 	&:last-child {
-		border-right: 1px solid;
+		border-right: 0px solid;
 		border-color: #292929;
 		margin-right: 20px;
 		padding-right: 20px;
-	}
+
+		@media (min-width: 550px) {
+			border-right: 1px solid;
+			border-color: #292929;
+		}//mq
+	}//lc
 
 	a {
 		color: #777;
+
+		&:hover {
+			color: #999;
+		}
 	}
 
 	@media (min-width: 800px) {
@@ -1334,13 +1356,20 @@ footer {
 }
 
 .ftr-social-list {
-	display: inline;
-	float: left;
+	display: block;
+	float: none;
+	margin-top: 7px;
+	text-align: center;
+
+	@media (min-width: 550px) {
+		display: inline;
+		float: left;
+		text-align: left;	
+	}//mq
 }
 
 .ftr-info-mod {
 	max-width: 735px;
-	width: 100%;
 	float: left;
 	display: inline;
 	@include pie-clearfix;
@@ -1348,30 +1377,42 @@ footer {
 	border-color: #999;
 	padding: 15px 0px;
 
+	@media (min-width: 800px) and (max-width: 1100px){
+		margin: 0px 50px;
+	}//mq
+
 	@media (min-width: 1100px) {
-		border-right: 2px solid;
+		border-right: 1px solid;
 		border-color: #292929;
 	}//mq
 }
 
 .ftr-blurb-mod {
-	padding: 20px 30px 20px 0px;
+	padding: 20px 0px 30px 0px;
 	border-bottom: 1px solid;
-	border-color: #999;
+	border-top: 1px solid;
+	border-color: #292929;
 	color: #777;
+	margin: 0 auto;
+	margin-top: 25px;
 
-	@media (min-width: 1000px) {
+	@media (min-width: 550px) {
+		margin-top: 40px;
+	}//mq550
+
+	@media (min-width: 1100px) {
 		border-bottom: 0px;
 		padding-bottom: 0px;
-	}//mq1000
+		padding-right: 30px;
+	}//mq1100
 }
 
 .ftr-blurb {
-	font: 400 14px/130% $sans;
+	font: 400 15px/130% $sans;
 	-webkit-font-smoothing: antialiased;	
 	display: inline;
 
-	@media (min-width: 800px) {
+	@media (min-width: 700px) {
 		font-size: 16px;
 	}//mq800
 }
@@ -1390,6 +1431,8 @@ footer {
 .ftr-sponsor-mod {
 	float: none;
 	display: block;
+	text-align: center;
+	@include pie-clearfix;
 
 	@media (min-width: 1100px) {
 		float: right;
@@ -1401,12 +1444,20 @@ footer {
 }	
 
 .ftr-sponsor {
-	max-width: 165px;
+	max-width: 130px;
 	margin-bottom: 10px;
+
+	@media (min-width: 500px) {
+		max-width: 140px;
+	}//mq
+
+	@media (min-width: 900px) {
+		max-width: 160px;
+	}//mq
 }
 
 .ftr-sponsor-txt {
-	font: 400 14px/130% $sans;
+	font: 400 13px/130% $sans;
 	-webkit-font-smoothing: antialiased;	
 	color: #777;
 }
@@ -1462,10 +1513,10 @@ footer {
 .social-item-img {
 	max-width: 23px;
 	width: 100%;
+	margin-top: -7px;
 
 	@media (min-width: 800px) {
 		max-width: 23px;
-		margin-top: -7px;
 	}//mq800
 }
 
@@ -1692,6 +1743,37 @@ footer {
 
 
 /* ============================================= */
+/*	Support Page				 				 */ 
+/* ============================================= */
+
+.support-options-mod {
+	margin: 0 auto;
+	text-align: center;
+	max-width: $standard-width;
+
+	@media (min-width: 600px) {
+		@include media-grid(2, 0px);
+		margin: 0 auto;
+	}//mq
+}
+
+
+.support-option {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.support-option-img {
+	max-width: 40%;
+	margin-bottom: -20px;
+
+	@media (min-width: 600px) {
+		max-width: 225px;
+	}//mq
+}
+
+
+/* ============================================= */
 /*	404 Page				 					 */ 
 /* ============================================= */
 
@@ -1736,9 +1818,12 @@ footer {
 .btn-txt {
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	@include pie-clearfix;
 }
 
 .btn-submit{
+	@include pie-clearfix;
+
 	a {
 		position: relative;
 	    color: #fff;

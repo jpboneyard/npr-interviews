@@ -16,7 +16,7 @@
 			<div class="ftr-blurb-mod">
 				<a href="http://www.nprshow.com" target="_blank"><img class="npr-ftr-logo" src="/_img/npr-ftr-logo-2.png" /></a>
 				<div class="ftr-blurb">
-					The NPR Bitchin' Interview Series is brought to you by The National Poster Retrospecticus. The NPR is a traveling poster show based out of Austin, Texas.
+					The NPR Bitchin' Interview Series is brought to you by <a href="http://www.nprshow.com" target="_blank">The National Poster Retrospecticus</a>. The NPR is a traveling poster show based out of Austin, Texas.
 				</div> <!-- /ftr-blurb -->
 			</div> <!-- /ftr-blurb-mod -->
 		</div> <!-- /ftr-info-mod -->	
